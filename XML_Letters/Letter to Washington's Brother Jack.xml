@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Washington's Brother Jack</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written By Greoge Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <dateline><placeName>Camp at Will's Creek,</placeName> June 7, 1755.</dateline>
+            <p>Dear Jack: As much hurried as I am at present, I can't think of leaving this place without writing to
+            you; tho' I have no time to be particular. I was Escorted by 8 Men of the Militia from <placeName>Winchester</placeName> to
+            this place; which 8 Men were 2 Days assembling; but I believe they wou'd not have been more than
+            as many seconds dispersing if I had been attacked. Upon arrival here, I found <persName>Sir Jno. St. Clair</persName>
+            with a body of 500 Men were March'd to prepare the Roads, lay a deposit of Provisions at the little
+            Meadows, and to erect some kind of defensive work there.
+            To morrow <persName>Sir Peter</persName> with the first Brigade, begin their March, and on Monday the General and the 2d. will follow. We have no certain acct. from 
+            the Ohio: but have advices from Philadelphia that a body of 300 F. pass'd Oswego on their way to <placeName>Fort Duquisne,</placeName> and
+            that a larger Detachment was hourly expected. A Captn. of <persName>Sir Peter's </persName>Regim't with several of the
+            common Soldiers of the different Corps has died since our Incampm't here, and many others are
+            now sick with a kind of bloody Flux. I wrote from Winchester a Letter which I hope you have receiv'd
+            and shou'd be glad of an answer as soon as possible; any Letter's to me, directed to the care of Mr.
+            Cox, at Winchester, will be certain of a conveyance I am Dr. Jack Yr. most Affe. Brother
+         </p>
+      </body>
+  </text>
+</TEI>

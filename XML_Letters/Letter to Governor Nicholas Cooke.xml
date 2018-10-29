@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Governor Nicholas Cooke</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written By Greoge Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <dateline> <placeName>Cambridge,</placeName> March 17, 1776.</dateline>
+           <p> Sir: I have the Pleasure to inform you, that this morning the Ministerial Troops evacuated the <placeName>Town of
+            Boston,</placeName> without destroying it.39 and that we are now in the full possession; upon which event, I beg leave to Congratulate you, and sincerely wish, if the 
+            Ministry persevere in the same unconstitution and despotic measures, which too long have marked their conduct, that our opposition and
+            resistance, in every Quarter, may be crowned with the success they have been here. Where their destination is, or what plans they have in view, is altogether unknown; 
+            most probably the next attempt will be against New York, or some more <placeName>Southern Colony.</placeName></p>
+            <p>However, I should think, tho' I do not believe they have any design against Rhode Island, that it will be adviseable to keep a
+            strict look out; and submit it to you, whether it may not be proper against the time you apprehend
+            they might arrive, to call in a number of the Militia and have them posted in proper places. I do not
+            mean to direct the Measure, but only to mention It for your Consideration; to me it appears worthy
+            of attention. I am Yours.
+            N. B. March 19th, the Fleet is still in <placeName>King and Nantasket Roads.</placeName></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to the Recruiting Officers of the Virgina Regiment</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written By Greoge Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <dateline><placeName>[Williamsburg],</placeName> September [3], 1755.</dateline>
+            <p n="1">First; That each Captain shall, by beat of Drum or otherwise, Raise Thirty men; Each Lieutenant
+            Eighteen; and each Ensign, Twelve men.</p>
+            <p n="2">Secondly: That each Captain shall appoint proper Persons to act as non-commissioned Officers,
+            during their Recruiting Service: But those non-commissioned Officers, so appointed, are not to be
+            confirmed, 'till approved of by me, or a Field Officer for that purpose.</p>
+            <p n="3">Thirdly: That no Officer shall list any Men under Sixteen, or above Fifty years of age: Nor are they to
+            list men under five feet four Inches high, unless they are well made, strong, and active; then, and in
+            that case, they will be received.
+            Neither are they to list any men who have old Sores upon their legs, or who are subject to Fits; which
+            will be inspected into by the Surgeons, upon their arrival at Quarters: and such as are found to come
+            under these Articles, will be discharged; and the Officers have no allowance made.</p>
+            <p n="4">Fourthly: That, when each Recruiting Officer has listed his Complement of Men, he is immediately to
+            repair to the Place of Rendezvouz; which I hope, and expect, will be by the first day of October next:
+            but if in case the whole should not be complete by that time; it is then my Orders, that each Captain
+            shall forthwith send one of his Subalterns with all the Recruits, to the quarters assigned him, and remain with the other Subaltern to complete 
+            his Company, with all imaginable Diligence. There will be a Field Officer to receive, review, and examine the Recruits
+            that are brought in; who will have power to reject and discharge, such as come under the above
+            Articles.</p>
+           <p n="5">Fifthly: That, for each Recruit that is passed by such Field Officer, the Officer who Listed him, shall
+            receive two Pistoles, and an allowance of eight-pence per Day for Subsistance, from the day of his
+            attestation, to the day of his being received into the Regiment.</p>
+           <p n="6">Sixthly: That all Recruits, so soon as they are Listed, are to take the Oaths provided for that purpose;
+            which is to be attested by the Magistrate who administered them.
+            Their Stature, Complexion, and so forth, is to be taken also, and entered by the Recruiting Officer in a
+            Book kept for that purpose.</p>
+           <p n="7">Seventhly: That no Officer shall bring in any charge against his Men for Necessaries; Each man being
+            to receive full Clothing, on his arrival at the place of Rendezvous.
+            Lastly: That when you are on the Recruiting Service, and on your March; you are to observe the same
+            good Order and Discipline, as in Camp or in Quarters; and you are to conform yourself, in every
+            respect, to the Rules and Articles of War. Given under my hand etc.
+            All the Officers then present received the foregoing Instructions, and money for Recruiting; and
+            some of them were appointed to act 'till further Orders, as followeth:
+           <persName> Viz. To Captain Spotswoods Company,</persName>
+           <persName>Lieutenant Lomax and Ensign Garter,</persName> were ordered to do Duty as Subalterns: and to
+           <persName> Captain Harrison; Lieutenant John. Hall; Ensign Nathaniel Thompson.</persName> 
+           <persName>To Captain Lewis; Lieutenant Peter Steenbergen; Ensign Edward Hubard. </persName>
+           <persName> To Captain Peachy, Lieutenant John Williams; Ensign William Dangerfield.</persName> 
+           <persName>To Captain Bell, Lieutenant John Campbell; Ensign William Fleming.</persName> 
+           <persName>To Captain McKenzie, Lieutenant James Baker, Ensign Leonard Price.</persName>
+            And were ordered by their Instructions, to Rendezvous as followeth: 
+            <placeName>Fredericksburgh;</placeName><persName> Captain Spotswood, and Company, Captain Harrison, and Company, Captain Lewis,
+            and Company.</persName> 
+            <persName>Winchester; Captain Bell, and Company; Alexandria; Captain Peachy, and Company;
+            Captain McKenzie, and Company.</persName>
+            The other Subalterns then present, videlicet; 
+            <persName>Lieutenant's Brockenbrough, Lowry and King:</persName>
+            <persName>Ensigns, Millner, Dean and Weedon;</persName> who were not appointed to any particular Companies, were
+            ordered to Rendezvous at <placeName>Fredericksburg;</placeName> <persName>Lieutenant Lowry; Ensign Weedon; Alexandria; Lieutenant Brockenbrough,
+            Lieutenant John King, Ensign John Dean.</persName>
+         </p>
+      </body>
+  </text>
+</TEI>
