@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Passamaquodia Indians</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mount Vernon Library</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Letter written by George Washington</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <p>Brothers of Passamaquodia	<placeName>Bucks County, Pa</placeName>., <origDate>24 December 1776</origDate></p>
+         <p>I am glad to hear by <persName>Major Shaw</persName>, that You Accepted of the Chain of Freindship which I sent you last <date>February</date> from <placeName>Cambridge</placeName>, &amp; that you are determined to keep it bright and unbroken.1</p>
+         <p> When I first heard that you refused to send any of your Warriours to my Assistance when called upon by our Brothers of <persName>St Johns</persName> I did not know what to think; I was Afraid that some Enemy had turned your Hearts Against Me. But I am since informed that all your young Men were employed in Hunting, which was the reason of their not coming; This has Made my Mind easy, and I hope you will allways in future join with your Brothers of <persName>St Johns &amp; Penobscott</persName> when required.</p>
+         <p>I have desired My Brother the Governr of <placeName>Massachusetts Bay</placeName> to pay you the Money which <persName>Capt. Smith</persName> promised you for Sending My Letters to the Micmack Indians.2</p>
+        <p> Brothers—I have a peice of News to tell you which I hope you will Attend to.
+           Our Enemy the King of <placeName>Great Britain</placeName> endeavoured to Stir up all the Indians from <placeName>Canada </placeName>to <placeName>South Carolina</placeName> Against Us, But our Bretheren of the Six Nations and their Allies the Shawanese and Delewares would not hearken to the Advice of the Messengers sent among them but kept fast hold of our Ancient Covenant Chain; The Cherokees and the Southern Tribes were foolish enough to listen to them, and to take up the Hatchet Against us, Upon this our Warriours went into their [434] Country, burnt their Houses, destroyed their Corn, and Oblidged them to sue for peace and give Hostages for their future Good Behaviour.</p>
+         <p> Now Brothers never lett the Kings Wicked Councellors turn your Hearts Against Me and your Bretheren of this Country, but bear in Mind what I told you last February and what I tell you now. In token of my Freindship I send you this from my Army on the Banks of the great <placeName>River Delaware</placeName> this <date>24th Day of December 1776</date>.</p>
+         <p><persName><forename>George</forename> <surname>Washington</surname></persName></p>
+      </body>
+  </text>
+</TEI>

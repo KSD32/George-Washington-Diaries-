@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Madison</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+           <p> My dear Sir,</p>	
+         <p><placeName>Mount Vernon</placeName> <origDate>Feby 5th 1788</origDate>.</p>
+            <p>I am indebted to you for several of your favors, and thank you for their enclosures. The rumours of War between <location><region>France</region></location> and <location><region>England</region></location> have subsided; and the poor <persName>Patriots</persName> of <location><region>Holland</region></location>, it seems, are left to fight their own Battles or negotiate—in neither case with any great prospect of advantage—They must have been deceived, or their conduct has been divided, precip-[it]ant, &amp; weak—the former, with some blunders, have, I conceive, been the causes of their misfortunes.</p>
+           <p> I am sorry to find by yours, and other accts from <location><region>Massachusetts</region></location>, that the decision of its <event>Convention</event> (at the time of their dates) remained problematical. A rejection of the New form by that State will envigorate the opposition, not only in <location><region>New York</region></location>, but in all those which are to follow; at the sametime that it will afford materials for the Minority in such as have adopted it, to blow the Trumpet of discord more loudly. The acceptance by a bare majority, tho’ preferable to rejection, is also to be depricated.</p>
+           <p> It is scarcely possible to form any decided opinion of the general sentiment of the people of this State, on this important subject. Many have asked me with anxious sollicitude, if you did not mean to get into the <event>Convention</event>; conceiving it of indispensable necessity. <persName>Colo. Mason,</persName> who returned here only yesterday, has offered himself, I am told, for the County of Stafford; and his friends add, he can be elected not only there, but for <persName>Prince William </persName>&amp; Fauquier also.1 The truth of this I know not. I rarely go from home and my visitors who for the most part are travellers and strangers, have not the least information.</p>
+           <p> At the time you suggested for my consideration, the expediency of a communication of my sentiments on the proposed <doc>Constitution</doc>, to any corrispondent I might have in <loction><region>Massachusetts</region></loction>, it did not occur to me that <persName>Genl Lincoln</persName> &amp; myself frequently interchanged letters—much less did I expect that a [90] hasty, and indigested extract of one which I had written—intermixed with a variety of other matter to <persName>Colo. Chas Carter</persName>, in answer to a letter I had received from him respecting Wolf dogs—Wolves—Sheep—experiments in Farming &amp;ca &amp;ca &amp;ca—was then in the press, and would bring these sentiments to public view by means of the extensive circulation I find that extract has had.2 Altho’ I never have concealed, and am perfectly regardless who becomes acquainted with my sentiments on the proposed <doc>Constitution</doc>, yet nevertheless, as no care had been taken to dress the ideas, nor any reasons assigned in support of my opinion, I felt myself hurt by the publication; and informed my friend the Colonel of it. In answer, he has fully exculpated himself from the intention, but his zeal in the cause prompted him to distribute copies, under a prohibition (which was disregarded) that they should not go to the press. As you have seen the rude, or crude extract (as you may please to term it) I will add no more on the subject.</p>
+         <p> Perceiving that the <persName>Fœderalist</persName>, under the signature of <persName>Publius</persName>, is about to be republished, I would thank you for forwarding to me three or four Copies; one of which to be neatly bound, and inform me of the cost.3
+            Altho’ we have not had many, or deep Snows since the commencement of them, yet we have had a very severe Winter; and if the cold of this day is proportionably keen with you, a warm room, &amp; a good fire will be found no bad, or uncomfortable antidote to it. With sentiments of perfect esteem and friendship I am—Dear Sir Yr Affecte &amp; Obedt Servt</p>
+         <p> <persName>Go: Washington</persName></p>
+         
+         
+      </body>
+  </text>
+</TEI>
