@@ -1,0 +1,26 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = TEI 
+TEI = element TEI {teiheader,body}
+teiheader = element teiheader {fileDesc}
+fileDesc = element fileDesc {titleStmt,publicationStmt,sourceDesc}
+titleStmt = element titleStmt {title}
+title = element title {text}
+publicationStmt = element publicationStmt {text}
+sourceDesc = element sourceDesc {text}
+body = element body {p}
+p = element p {mixed {(placeName|origDate|persName|date|event|doc|personGrp|location|n)*}}
+placeName = element placeName {text}
+origDate = element origDate {text}
+persName = element persName {forename?|surname?|text}
+forename = element forename {text}
+surname = element surname {text}
+date = element date {text}
+event = element event {text}
+doc = element doc {text}
+personGrp = element personGrp {type?, text}
+type = attribute type {"river"|"Britain"}
+location = element location {(region|type|text)*}
+region = element region {text}
+n = attribute n {xsd:integer}
+
