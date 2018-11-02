@@ -5,7 +5,9 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <!--2018-11-02 ebb: This XSLT (in progress) will pull prosopography data (names of people, places, organizations/institutions, events) from the George Washington collection files and output them in a standard TEI "site index" series of lists to which the project team will apply standard xml:ids for referencing in the project. 
-        That list will also serve to supply standard project values for @ref attributes for inline coding throughout the project: we'll work with it (writing a new XSLT) to build up the project ODD (and its generated project RNG schema) using the values the team supplies there.   -->
+        The output "site index" file will also serve to supply standard project values for @ref attributes for inline coding throughout the project: we'll work with it (writing a new XSLT) to build up the project ODD (and its generated project RNG schema) using the values the team supplies there.   -->
+    
+    <xsl:variable name="washColl" as="document-node()+" select="collection('XML_Letters/?select=*.xml')"/>    
 <xsl:template match="/">
     <xsl:processing-instruction name="xml-model">
     <xsl:text>href="../out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
@@ -29,14 +31,45 @@
         </teiHeader>
         <text>
             <body>
+   <!--REDO this b/c you want to work with for-each over distinct values, and map them back onto the tree. -->
+<listPerson>
+    <xsl:for-each select="distinct-values($washColl//persName ! normalize-space())">
+        <person>
+            <persName><xsl:value-of select="current()"/></persName>
+            <birth/>
+            <death/>
+            <note></note>
+        </person>
+    </xsl:for-each>
+    
+</listPerson>
                 
-                
+<listOrg>
+    <xsl:for-each select="distinct-values($washColl//orgName | $washColl//location/region) ! normalize-space()">
+        <org>
+            <orgName><xsl:value-of select="current()"/></orgName>
+            <note></note>
+        </org>
+
+    </xsl:for-each>
+    
+</listOrg>
+
+<listPlace>
+    <xsl:for-each select="distinct-values($washColl//placeName | $washColl//location[not(region)]) ! normalize-space()">
+    <place>
+        <placeName><xsl:value-of select="current()"/></placeName>
+        <location>
+            <geo><!--Contains a pairing of latitude and longitude coordinates:  From the TEI Guidelines: "the assumption is that the content of each geo element will be a pair of numbers separated by whitespace, to be interpreted as latitude followed by longitude according to the World Geodetic System." --> </geo>
+        </location>
+    </place>
+    </xsl:for-each>
+</listPlace>
                 
             </body>
         </text>
     </TEI>
-    
-    
 </xsl:template>
+   
     
 </xsl:stylesheet>
