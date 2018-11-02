@@ -10,12 +10,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Hamilton ODD</title>
-        <author>Audrey Hunker</author>
+        <title>Washington ODD</title>
+        <author>Kiara DeVore</author>
         <respStmt><resp>With assistance from</resp><name>Elisa Beshero-Bondar</name></respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>Prepared in TEI P5 for the Hamilton Project team on newtFire.org. GitHub repository: <ref target="https://github.com/ahunker/Hamilton-Project"/>. Date last worked on: <date when="2017-03-07">07 March 2017</date></authority>
+        <authority>Prepared in TEI P5 for the Washington Project team on newtFire.org. GitHub repository: <ref target="https://github.com/KSD32/George-Washington-Diaries-"/>. Date last worked on: <date when="2018-11-02">02 November 2018</date></authority>
         <availability><licence><!--Choose and identify a Creative Commons license for sharing your code. Look here: https://creativecommons.org/share-your-work/--></licence></availability>
       </publicationStmt>
       <sourceDesc>
@@ -30,11 +30,11 @@
         <moduleRef key="core" except="binaryObject cb distinct divGen gb gloss headItem headLabel index lb mentioned monogr postbox postCode sp speaker stage"/>
         <moduleRef key="header"/> 
         <moduleRef key="linking" include="seg"/>
-        <moduleRef key="namesdates" include="persName placeName roleName geo place listPlace listEvent event"/>
+        <moduleRef key="namesdates"/>
         <moduleRef key="textstructure" include="TEI body closer dateline div opener postscript salute signed text"/>
         
         
-        
+        <!-- 
         <elementSpec ident="seg" module="linking" mode="change">
           <attList>
             <attDef ident="type" mode="replace" usage="req">
@@ -162,7 +162,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        
+         -->
         
       </schemaSpec>
     </body>
