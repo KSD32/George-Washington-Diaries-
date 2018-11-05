@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.tei-c.org/ns/1.0"    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="3.0">
+    <xsl:output method="xml" indent="yes"/>
     <!--2018-11-02 ebb: This XSLT (in progress) will pull prosopography data (names of people, places, organizations/institutions, events) from the George Washington collection files and output them in a standard TEI "site index" series of lists to which the project team will apply standard xml:ids for referencing in the project. 
         The output "site index" file will also serve to supply standard project values for @ref attributes for inline coding throughout the project: we'll work with it (writing a new XSLT) to build up the project ODD (and its generated project RNG schema) using the values the team supplies there.   -->
     
@@ -31,9 +32,10 @@
         </teiHeader>
         <text>
             <body>
-   <!--REDO this b/c you want to work with for-each over distinct values, and map them back onto the tree. -->
+
 <listPerson>
     <xsl:for-each select="distinct-values($washColl//persName ! normalize-space())">
+       <xsl:sort/>
         <person>
             <persName><xsl:value-of select="current()"/></persName>
             <birth/>
@@ -46,6 +48,7 @@
                 
 <listOrg>
     <xsl:for-each select="distinct-values($washColl//orgName | $washColl//location/region) ! normalize-space()">
+        <xsl:sort/>
         <org>
             <orgName><xsl:value-of select="current()"/></orgName>
             <note></note>
@@ -57,6 +60,7 @@
 
 <listPlace>
     <xsl:for-each select="distinct-values($washColl//placeName | $washColl//location[not(region)]) ! normalize-space()">
+        <xsl:sort/>
     <place>
         <placeName><xsl:value-of select="current()"/></placeName>
         <location>
