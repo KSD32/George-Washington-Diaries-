@@ -27,49 +27,133 @@
       <body>
          <listPerson>
             <person>
-               <persName>Capt. Smith</persName>
+               <persName>Captain Bell</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Captain Harrison; Lieutenant John. Hall; Ensign Nathaniel Thompson.</persName>
+               <persName>Captain Harrison</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Captain Spotswood, and Company, Captain Harrison, and Company, Captain Lewis, and Company.</persName>
+               <persName>Captain Lewis</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Colo. Chas Carter</persName>
+               <persName>Captain McKenzie</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Colo. Mason,</persName>
+               <persName>Captain Peachy</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Colonel Nicholson,</persName>
+               <persName>Captain Smith</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Doctor Tappen,</persName>
+               <persName>Captain Spotswood</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Ensigns, Millner, Dean and Weedon;</persName>
+               <persName>Colonel Chas Carter</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Colonel Mason</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Colonel Nicholson</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Doctor Tappen</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Alexandria</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Dean</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Edward Hubard</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Garter</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign John Dean</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Leonard Price</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Millner</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign Nathaniel Thompson</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person> 
+            <person> 
+               <persName>Ensign Weedon</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign William Dangerfield</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Ensign William Fleming</persName>
                <birth/>
                <death/>
                <note/>
@@ -81,13 +165,13 @@
                <note/>
             </person>
             <person>
-               <persName>G: Braddock</persName>
+               <persName>General Braddock</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Genl Lincoln</persName>
+               <persName>General Lincoln</persName>
                <birth/>
                <death/>
                <note/>
@@ -99,31 +183,62 @@
                <note/>
             </person>
             <person>
-               <persName>Go: Washington</persName>
+               <persName>Govenor. Shirley</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            
+            <person>
+               <persName>Lieutenant Brockenbrough</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Gov'r. Shirley</persName>
+               <persName>Lieutenant James Baker</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant Lomax and Ensign Garter,</persName>
+               <persName>Lieutenant John Campbell</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant Lowry; Ensign Weedon; Alexandria; Lieutenant Brockenbrough, Lieutenant John King, Ensign John Dean.</persName>
+               <persName>Lieutenant John. Hall</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant's Brockenbrough, Lowry and King:</persName>
+               <persName> Lieutenant John King</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant John Williams</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Lomax </persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Lowry</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Peter Steenbergen</persName>
                <birth/>
                <death/>
                <note/>
@@ -135,37 +250,13 @@
                <note/>
             </person>
             <person>
-               <persName>Major Rensselaer.</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
                <persName>Major Shaw</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Mr. Greenleaf</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Mr. Greenleaf's</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Mr. Greenleaf,</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Mr. James Greenleaf,</persName>
+               <persName>Mr. James Greenleaf</persName>
                <birth/>
                <death/>
                <note/>
@@ -207,55 +298,20 @@
                <note/>
             </person>
             <person>
-               <persName>Sir Peter's</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
                <persName>St Johns</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>St Johns &amp; Penobscott</persName>
+               <persName>St Penobscott</persName>
                <birth/>
                <death/>
                <note/>
             </person>
+            
             <person>
-               <persName>To Captain Bell, Lieutenant John Campbell; Ensign William Fleming.</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>To Captain Lewis; Lieutenant Peter Steenbergen; Ensign Edward Hubard.</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>To Captain McKenzie, Lieutenant James Baker, Ensign Leonard Price.</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>To Captain Peachy, Lieutenant John Williams; Ensign William Dangerfield.</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Viz. To Captain Spotswoods Company,</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Winchester; Captain Bell, and Company; Alexandria; Captain Peachy, and Company; Captain McKenzie, and Company.</persName>
+               <persName>Winchester</persName>
                <birth/>
                <death/>
                <note/>
@@ -303,19 +359,13 @@
                </location>
             </place>
             <place>
-               <placeName>Cambridge,</placeName>
+               <placeName>Camp Cambridge</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Camp Cambridge,</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
-               <placeName>Camp at Will's Creek,</placeName>
+               <placeName>Camp at Will's Creek</placeName>
                <location>
                   <geo/>
                </location>
@@ -327,13 +377,13 @@
                </location>
             </place>
             <place>
-               <placeName>Culpeper 8 9</placeName>
+               <placeName>Culpeper</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Eastern Shore Countys,</placeName>
+               <placeName>Eastern Shore Countys</placeName>
                <location>
                   <geo/>
                </location>
@@ -345,19 +395,13 @@
                </location>
             </place>
             <place>
-               <placeName>Fort Duquisne,</placeName>
+               <placeName>Fort Duquisne</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Fredericksburg;</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
-               <placeName>Fredericksburgh;</placeName>
+               <placeName>Fredericksburg</placeName>
                <location>
                   <geo/>
                </location>
@@ -369,7 +413,7 @@
                </location>
             </place>
             <place>
-               <placeName>Head Quarters, New York,</placeName>
+               <placeName>Head Quarters, New York</placeName>
                <location>
                   <geo/>
                </location>
@@ -381,13 +425,13 @@
                </location>
             </place>
             <place>
-               <placeName>House of Burgesses,</placeName>
+               <placeName>House of Burgesses</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>King George 15 16</placeName>
+               <placeName>King George</placeName>
                <location>
                   <geo/>
                </location>
@@ -399,7 +443,7 @@
                </location>
             </place>
             <place>
-               <placeName>Lancaster 29 30 September</placeName>
+               <placeName>Lancaster</placeName>
                <location>
                   <geo/>
                </location>
@@ -411,7 +455,7 @@
                </location>
             </place>
             <place>
-               <placeName>Militia Prince Wm 4 5</placeName>
+               <placeName>Militia Prince Wm</placeName>
                <location>
                   <geo/>
                </location>
@@ -423,31 +467,19 @@
                </location>
             </place>
             <place>
-               <placeName>Mount Vernon,</placeName>
+               <placeName>Niagara</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Mount Vernon,</placeName>
+               <placeName>Northumberland</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Niagara,</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
-               <placeName>Northumberland 26 27</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
-               <placeName>Philadelphia,</placeName>
+               <placeName>Philadelphia</placeName>
                <location>
                   <geo/>
                </location>
@@ -459,7 +491,7 @@
                </location>
             </place>
             <place>
-               <placeName>Richmond 22 23</placeName>
+               <placeName>Richmond</placeName>
                <location>
                   <geo/>
                </location>
@@ -477,19 +509,19 @@
                </location>
             </place>
             <place>
-               <placeName>Southern Colony.</placeName>
+               <placeName>Southern Colony</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Stafford 12 13</placeName>
+               <placeName>Stafford</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Town of Boston,</placeName>
+               <placeName>Town of Boston</placeName>
                <location>
                   <geo/>
                </location>
@@ -501,13 +533,13 @@
                </location>
             </place>
             <place>
-               <placeName>Towns on the Coast,</placeName>
+               <placeName>Towns on the Coast</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Westmoreland 19 20</placeName>
+               <placeName>Westmoreland</placeName>
                <location>
                   <geo/>
                </location>
@@ -519,19 +551,13 @@
                </location>
             </place>
             <place>
-               <placeName>Winchester,</placeName>
+               <placeName>[Williamsburg]</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>[Williamsburg],</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
-               <placeName>federal City,</placeName>
+               <placeName>Federal City</placeName>
                <location>
                   <geo/>
                </location>
