@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="../../../../../Documents/George-Washington-Diaries-/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../Documents/George-Washington-Diaries-/out/GeoWash.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Attack On Philadelphia</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -18,7 +19,7 @@
   </teiHeader>
   <text>
       <body>
-         <p><location>Valley Forge,</location> c.<date>25 December 1777</date></p>
+         <p><location>Valley Forge,</location> c.<origDate>25 December 1777</origDate></p>
          <p><persName>Jameison</persName> with the light Horse on the other side <location type="river">Schuylkill</location> to guard the Avenues to the City, &amp; even to form a Chain across from <location>Kensington</location> to <location>Schuylkill</location>; and stop, &amp; secure every Person going in, and coming out. obtaing from them all the Intelligence he can.
             A Small Party of Horse under a careful Officer to waylay the road from the middle &amp; upper Ferry, &amp; do the same.
             A Party of foot at each ford from Sweedes to the Falls, for the same purpose.</p>

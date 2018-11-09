@@ -21,7 +21,7 @@
   </teiHeader>
   <text>
       <body>
-          <p><date>(No date given)</date></p>
+          <dateline>(No date given)</dateline>
            <p> To the speaker and gentlemen of the <orgName>House of Burgesses,</orgName>
                We, the officers of the <location><region>Virginia</region></location> <orgName>Regiment</orgName>, are highly sensibleof the particular Mark of Distinction, with which you have honoured Us, in returning your Thanks
             for our Behaviour in the late Action; and can not help testifying our grateful Acknowldgements for your high senseof what We shall always esteem a Duty to our
