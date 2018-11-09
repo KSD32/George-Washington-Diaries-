@@ -2,7 +2,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -19,13 +21,13 @@
   </teiHeader>
   <text>
       <body>
-          <dateline>(No date given)</dateline>
-           <p> To the speaker and gentlemen of the <placeName>House of Burgesses,</placeName>
-            We, the officers of the Virginia Regiment, are highly sensibleof the particular Mark of Distinction, with which you have honoured Us, in returning your Thanks
+          <p><date>(No date given)</date></p>
+           <p> To the speaker and gentlemen of the <orgName>House of Burgesses,</orgName>
+               We, the officers of the <location><region>Virginia</region></location> <orgName>Regiment</orgName>, are highly sensibleof the particular Mark of Distinction, with which you have honoured Us, in returning your Thanks
             for our Behaviour in the late Action; and can not help testifying our grateful Acknowldgements for your high senseof what We shall always esteem a Duty to our
             Country and the best of Kings.
-            Favoured with your Regard, We shall zealously endeavour to deserve your Applause, and, by our future Actions, strive to convince the Worshipful House of Burgesses,
-            how much we Esteem their Approbation; and as it ought to be, Regard it as the Voice of our Country.
+            Favoured with your Regard, We shall zealously endeavour to deserve your Applause, and, by our future Actions, strive to convince the Worshipful <orgName>House of Burgesses</orgName>,
+               how much we Esteem their Approbation; and as it ought to be, Regard it as the Voice of our <orgName>Country</orgName>.
             
             Signed for the whole corp,</p>
       </body>
