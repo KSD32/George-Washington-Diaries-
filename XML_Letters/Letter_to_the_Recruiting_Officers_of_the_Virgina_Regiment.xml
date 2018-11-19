@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Wrong Syntax -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -53,23 +54,23 @@
             All the Officers then present received the foregoing Instructions, and money for Recruiting; and
             some of them were appointed to act 'till further Orders, as followeth:
            <persName> Viz. To Captain Spotswoods Company,</persName>
-           <persName>Lieutenant Lomax and Ensign Garter,</persName> were ordered to do Duty as Subalterns: and to
-           <persName> Captain Harrison; Lieutenant John. Hall; Ensign Nathaniel Thompson.</persName> 
-           <persName>To Captain Lewis; Lieutenant Peter Steenbergen; Ensign Edward Hubard. </persName>
-           <persName> To Captain Peachy, Lieutenant John Williams; Ensign William Dangerfield.</persName> 
-           <persName>To Captain Bell, Lieutenant John Campbell; Ensign William Fleming.</persName> 
-           <persName>To Captain McKenzie, Lieutenant James Baker, Ensign Leonard Price.</persName>
+           <persName>Lieutenant Lomax</persName> and <persName>Ensign Garter,</persName> were ordered to do Duty as Subalterns: and to
+           <persName> Captain Harrison;</persName> <persName>Lieutenant John. Hall;</persName><persName> Ensign Nathaniel Thompson. </persName>
+           <persName>To Captain Lewis;</persName> <persName>Lieutenant Peter Steenbergen;</persName> <persName>Ensign Edward Hubard.</persName> 
+           <persName> To Captain Peachy,</persName>  <persName>Lieutenant John Williams;</persName> <persName>Ensign William Dangerfield.</persName>
+           <persName>To Captain Bell,</persName> <persName>Lieutenant John Campbell;</persName> <persName>Ensign William Fleming. </persName>
+           <persName>To Captain McKenzie,</persName> <persName>Lieutenant James Baker,</persName> <persName>Ensign Leonard Price.</persName>
             And were ordered by their Instructions, to Rendezvous as followeth: 
-            <placeName>Fredericksburgh;</placeName><persName> Captain Spotswood, and Company, Captain Harrison, and Company, Captain Lewis,
-            and Company.</persName> 
-            <persName>Winchester; Captain Bell, and Company; Alexandria; Captain Peachy, and Company;
-            Captain McKenzie, and Company.</persName>
+            <placeName>Fredericksburgh;</placeName><persName> Captain Spotswood,</persName> and Company, <persName>Captain Harrison,</persName> and Company,<persName> Captain Lewis,</persName>
+            and Company. 
+            <placeName>Winchester;</placeName> <persName>Captain Bell,</persName> and Company; <placeName>Alexandria;</placeName> <persName>Captain Peachy,</persName> and Company;
+            <persName>Captain McKenzie,</persName> and Company.
             The other Subalterns then present, videlicet; 
-            <persName>Lieutenant's Brockenbrough, Lowry and King:</persName>
-            <persName>Ensigns, Millner, Dean and Weedon;</persName> who were not appointed to any particular Companies, were
-            ordered to Rendezvous at <placeName>Fredericksburg;</placeName> <persName>Lieutenant Lowry; Ensign Weedon; Alexandria; Lieutenant Brockenbrough,
-            Lieutenant John King, Ensign John Dean.</persName>
-         </p>
+            <persName>Lieutenant's Brockenbrough,</persName> <persName> Lowry</persName> and<persName> King:</persName>
+            <persName>Ensigns Millner,</persName><persName> Dean</persName> and <persName>Weedon;</persName> who were not appointed to any particular Companies, were
+            ordered to Rendezvous at <placeName>Fredericksburg;</placeName> <persName>Lieutenant Lowry;</persName> <persName>Ensign Weedon;</persName> <placeName>Alexandria;</placeName> <persName>Lieutenant Brockenbrough,</persName>
+            <persName>Lieutenant John King,</persName> <persName>Ensign John Dean.
+         </p></persName>
       </body>
   </text>
 </TEI>
