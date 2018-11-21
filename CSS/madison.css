@@ -1,0 +1,10 @@
+span.placeName{color:aqua}
+span.location{color:fuchsia}
+span.persName{color:green}
+span.orgName{color:orange}
+span.name{color:yellow}
+
+div{
+    background-color: lightblue;
+   padding: 25px 50px;
+}

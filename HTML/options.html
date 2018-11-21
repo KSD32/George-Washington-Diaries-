@@ -2,13 +2,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Options</title>
+    <link rel="stylesheet" type="text/css" href="menu.css"/>
 </head>
    
 <body>
     
     <hr/>
-    <p><a href="index.html">Main</a> | <a href="about.html">About</a> | 
-        <a href="diaries.html">Diaries</a>| <a href="letters.html"> Letters</a></p>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Letters 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="personal.html">Personal</a>
+                <a href="business.html">Business</a>
+            </div>
+        </div> 
+        <a href="diaries.html">Diaries</a>
+    </div>
+    
     <hr/>
 </body>
 </html>

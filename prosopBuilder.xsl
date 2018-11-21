@@ -69,6 +69,16 @@
     </place>
     </xsl:for-each>
 </listPlace>
+<listevent>
+    <xsl:for-each select="distinct-values($washColl//event | $washColl//event) ! normalize-space()">
+        <xsl:sort/>
+        <event>
+            <listevent><xsl:value-of select="current()"/></listevent>
+            <note></note>
+        </event>
+        
+    </xsl:for-each>
+</listevent>
                 
             </body>
         </text>
