@@ -10,12 +10,12 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="letters_html.css"/>
-                <title>Washington's Letter to James Madison</title></head>
+                <title>Washington's Letter to Indian Cheifs</title></head>
             <body>
                 
-                <h1>Madison Letter</h1>
-                    <xsl:apply-templates select="//body"/>
-                    
+                <h1>Indian Chief Letter</h1>
+                <xsl:apply-templates select="//body"/>
+                
             </body>
             
         </html>
@@ -30,8 +30,13 @@
             <xsl:apply-templates/>
         </span></strong>
     </xsl:template>
-    <xsl:template match="location/region">
-        <strong><span class="location">
+    <xsl:template match="date">
+        <strong><span class="date">
+            <xsl:apply-templates/>
+        </span></strong>
+    </xsl:template>
+    <xsl:template match="origDate">
+        <strong><span class="date">
             <xsl:apply-templates/>
         </span></strong>
     </xsl:template>
@@ -40,14 +45,18 @@
             <xsl:apply-templates/>
         </span></strong>
     </xsl:template>
-    <xsl:template match="orgName">
-        <strong><span class="orgName">
-            <xsl:apply-templates/>
-        </span></strong>
+    <xsl:template match="persName/forename">
+        <strong>
+            <span class="persName">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
     </xsl:template>
-    <xsl:template match="name">
-        <strong><span class="name">
-            <xsl:apply-templates/>
-        </span></strong>
+    <xsl:template match="surname">
+        <strong>
+            <span class="persName">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
     </xsl:template>
 </xsl:stylesheet>

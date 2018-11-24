@@ -3,6 +3,8 @@ span.location{color:fuchsia}
 span.persName{color:green}
 span.orgName{color:orange}
 span.name{color:yellow}
+span.date{color:maroon}
+
 
 div{
     background-color: lightblue;
