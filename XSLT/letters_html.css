@@ -8,5 +8,8 @@ span.date{color:maroon}
 
 div{
     background-color: lightblue;
-   padding: 25px 50px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
