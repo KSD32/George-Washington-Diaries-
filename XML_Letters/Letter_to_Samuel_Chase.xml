@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<!--Wrong Syntax-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -19,9 +20,9 @@
   </teiHeader>
   <text>
       <body>
-         <dateline><placeName>Head Quarters, New York,</placeName> June 13, 1776.</dateline>
+         <placeName>Head Quarters, New York,</placeName> <dateline>June 13, 1776.</dateline>
            <p> Sir: I am to inform you that <persName>Colonel Nicholson,</persName> of whose Character and Conduct you have received
-            an unfavorable Impression, is in Town; he comes for the purpose of raising Recruits for a New York
+            an unfavorable Impression, is in Town; he comes for the purpose of raising Recruits for a <orgName>New York</orgName>
             Battalion, to the Command of which he has been nominated. When I intimated to him, that from
             certain representations I had received, I judged him very unfit for the Employment, he insisted upon
             a Court of Enquiry to manifest his Innocence, and clear his reputation. Now Sir, as I am not well
