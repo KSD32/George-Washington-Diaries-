@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Wrong Syntax-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -19,20 +20,20 @@
   </teiHeader>
   <text>
       <body>
-        <dateline><placeName> Mount Vernon,</placeName> August 2, 1755.</dateline>
+        <placeName> Mount Vernon,</placeName> <dateline>August 2, 1755.</dateline>
            <p> Sir: I intend myself the honour of waitg. upon your County, in order to exercise the Militia; and
             shou'd be glad if you wou'd appoint your Officer's to meet me at the Court Ho., or some other
-            convenient place with a Firelock, Ammunition. on the of September next, and the Militia properly
+            convenient place with a Firelock, Ammunition. on the of <dateline>September</dateline> next, and the Militia properly
             accoutre'd, the day following. I am Sir, etc.</p>
-            <p><placeName>Fairfax Officers 31st 1st.</placeName>
-            <placeName>Militia Prince Wm 4 5 </placeName>
-            <placeName>Culpeper 8 9 </placeName>
-            <placeName>Stafford 12 13 </placeName>
-            <placeName>King George 15 16 </placeName>
-            <placeName>Westmoreland 19 20 </placeName> 
-            <placeName>Richmond 22 23 </placeName>
-            <placeName>Northumberland 26 27 </placeName>
-            <placeName>Lancaster 29 30 September </placeName></p>
+            <p><placeName>Fairfax Officers</placeName> <dateline>31st 1st.</dateline>
+            <placeName>Militia Prince Wm</placeName><dateline> 4 5 </dateline>
+            <placeName>Culpeper</placeName><dateline> 8 9 </dateline>
+            <placeName>Stafford</placeName> <dateline>12 13</dateline> 
+            <placeName>King George</placeName> <dateline>15 16</dateline> 
+            <placeName>Westmoreland</placeName> <dateline> 19 20 </dateline>
+            <placeName>Richmond</placeName> <dateline>22 23</dateline> 
+            <placeName>Northumberland</placeName> <dateline>26 27 </dateline>
+            <placeName>Lancaster</placeName> <dateline>29 30 September</dateline> </p>
       </body>
   </text>
 </TEI>
