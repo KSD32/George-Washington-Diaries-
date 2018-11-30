@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Wrong Syntax-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
   </teiHeader>
   <text>
       <body>
-         <dateline><placeName>Head Quarters, New York,</placeName> July 7, 1776.</dateline>
+         <orgName>Head Quarters, New York,</orgName><dateline>July 7, 1776.</dateline>
            <p> Sir: I received yours by <persName>Major Rensselaer</persName> and am pleased to find you are making the necessary
             Preperations to repel the Enemy in Case of an Attack.</p>
            <p> I hope you will be able to get Arms sufficient for the Men under your Command who are destitute;
@@ -27,7 +28,7 @@
             Militia wholly, as it is equally absurd and unjust, to keep Men in continental Pay, who will be of no
             Service in Time of Action, for Want of Arms. It is, in Fact, amusing ourselves with the Appearance of
             strength, when at the same Time we want the Reality.</p>
-           <p> Colonel Knox informs me, he has no Carriages to spare; but you can have the Carriage Wheels, which
+           <p> <persName>Colonel Knox</persName> informs me, he has no Carriages to spare; but you can have the Carriage Wheels, which
             with the Iron will be delivered to the Care of <persName>Major Rensselaer.</persName></p>
            <p> As to the Ball for the small Arms, they should be sent, if the Sizes could be ascertained, so as to fit
             the Musquets exactly; but as that cannot be done, I shall order a sufficient Quantity of Lead to be

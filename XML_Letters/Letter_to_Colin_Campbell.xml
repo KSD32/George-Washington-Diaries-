@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Wrong Syntax-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -19,14 +20,14 @@
   </teiHeader>
   <text>
       <body>
-         <dateline><placeName>Mount Vernon,</placeName> August 2, 1755.</dateline>
+         <placeName>Mount Vernon,</placeName> <dateline>August 2, 1755.</dateline>
            <p> Sir: [The Army und'r the Com'd of <persName>G: Braddock</persName> has met with an unfortunate defeat, which has
-            occasioned my ret'n]54 from the Ohio; [This circumstance enables me to order] the Militia of the
+            occasioned my ret'n]54 from the <orgName>Ohio;</orgName> [This circumstance enables me to order] the Militia of the
             several Countys in my district, to meet me and I have therefore taken this earliest oppertunity of
             inform'g you of it; that you may not be troubled ab't any but <placeName>Eastern Shore Countys,</placeName> unless you will
             undertake to exercise the whole (saving the two Frontier Countys viz Fairfax and Prince Win. which I
             will take the trouble off) for the Consideration of 40,£'s if you accept of this offer, I shou'd be glad to
-            know it before the first of Sept. and I have enclos'd you a Mem'm. of the appointed times that I have
+            know it before the first of <dateline>Sept.</dateline> and I have enclos'd you a Mem'm. of the appointed times that I have
             desit'd the Officer's, and Militia of each County to meet, that you may proceed accordingly. I am Sir,
             etc.
          </p>
