@@ -25,6 +25,11 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <xsl:template match="date">
+        <strong><span class="date">
+            <xsl:apply-templates/>
+        </span></strong>
+    </xsl:template>
     <xsl:template match="placeName">
         <strong><span class="placeName">
             <xsl:apply-templates/>
