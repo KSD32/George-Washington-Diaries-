@@ -1,14 +1,8 @@
 span.persName.on{color:green}
 span.date.on{color:purple}
 span.USmilitary.on{color:brown}
-span.political.on{color:lime}
-span.military.on{color:white}
-span.nation.on{color:gray}
-span.religious.on{color:maroon}
-span.note.on{color:olive}
-span.quote.on{color:red}
 span.city.on{color:navy}
-span.state.on{color:#339933}
+
 
 div{
     background-color: lightblue;
