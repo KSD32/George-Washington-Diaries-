@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!--Wrong Syntax-->
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,7 +17,7 @@
   </teiHeader>
   <text>
       <body>
-         <placeName>Philadelphia,</placeName> <dateline>July 23, 1793.</dateline>
+        <p> <placeName>Philadelphia,</placeName> <date>July 23, 1793.</date></p>
            <p> Gentlemen: The circumstances which had induced me to ask your counsel on certain legal questions
             interesting to the public, exist now as they did then; but I by no means press a decision whereon
             you wish the advice and participation of your absent brethren. Whenever, therefore, their presence

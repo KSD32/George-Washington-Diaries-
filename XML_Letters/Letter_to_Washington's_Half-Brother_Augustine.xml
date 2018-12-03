@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -18,7 +17,7 @@
   </teiHeader>
   <text>
       <body>
-         <orgName>Mount Vernon,</orgName> <dateline>August 2, 1755.</dateline>
+         <p><location><settlement>Mount Vernon,</settlement></location> <date>August 2, 1755.</date></p>
            <p> Dear Brother: The pleasure of your Company at <placeName>Mount Vernon</placeName> always did, and always will, afford
             me infinite satisfaction; but at this time, I am too truly sensible how needful the Country is of the
             assistance of all its members, to desire to hear that any are absent. I most sincerely wish that
@@ -32,7 +31,7 @@
             much in my private fortune, besides impairing one of the best of Constitution's. I was employ'd to go a journey in the Winter (when I believe few or none wou'd have 
             undertaken it) and what did I get by it? my expenses borne! </p>
            <p> I then was appointed with trifling Pay to conduct
-            an handful of Men to the <orgName>Ohio.</orgName> What did I get by this? Why, after putting myself to a considerable
+            an handful of Men to the Ohio. What did I get by this? Why, after putting myself to a considerable
             expence in equipping and providing necessarys for the Campaigne I went out, was soundly beaten,
             lost them all—came in, and had my Commission taken from me or, in other words my Corn'd,
             reduced, under pretence of an Order from home. I then went out a Volunteer with <persName>Genl. Braddock</persName>
@@ -50,10 +49,10 @@
             may be very serviceable in erect'g small Fortresses at convenient places to deposit provisions in, by
             which the Country will be eas'd of an immense expence in the Carriage, and it will also be a mean's
             of securing a Retreat if we sh'd be put to the Rout again; the success of this tho' will dep'd gre'tly
-            upon what <persName>Gov'r. Shirley </persName>does at <placeName>Niagara,</placeName> for if he succeeds, their Comn. with<orgName> Canada </orgName>will be entirely
+            upon what <persName>Gov'r. Shirley </persName>does at <placeName>Niagara,</placeName> for if he succeeds, their Comn. with<orgName type="#nation"> Canada </orgName>will be entirely
             stop'd.</p>
            <p> It is impossible for me to guess at the number of recruits that may be want'g, as that must depend
-            altogeth'r upon the strength of the French on the <orgName>Ohio,</orgName> w'ch to my g't. astonishm't we were ever
+            altogeth'r upon the strength of the French on the Ohio, w'ch to my g't. astonishm't we were ever
             strangers to.</p>
             <p>I thank you very heartily for your kind offer of a Chr. and for your goodness in sending my things;
             and, after begg'g you excuse the imperfect'ns. of the above which in part are owing to hav'g much

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diary Entry September 1794</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written by George Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From Mount Vernon Library</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><date>Tuesday 30th.</date> Having determined from the Report of the Commissioners, who were appointed to meet the <orgName type="#military">Insurgents</orgName> in the Western Counties in the State of <location><region>Pennsylvania</region></location>, and from other circumstances—to repair to the places appointed for the Rendezvous, of the <orgName type="#USmilitary">Militia</orgName> of <location><region>New Jersey</region></location> <location><region>Pennsylvania</region></location> <location><region>Maryland</region></location> &amp; <location><region>Virginia</region></location>; I left the City of <location><settlement>Philadelphia</settlement> </location>about half past ten oclock this forenoon accompanied by <persName>Colo. Hamilton</persName> <roleName>(Secretary of the Treasury)</roleName> &amp; my private Secretary. Dined at <location><settlement>Norris Town</settlement></location> and lodged at a place called the Trap—the first 17, and the latter 25 Miles from <location><settlement>Philadelphia</settlement></location>.
+            At <location><settlement>Norris Town</settlement></location> we passed a detachment of <orgName type="#USmilitary">Militia</orgName> who were preparing to march for the rendezvous at <location><settlement>Carlisle</settlement></location>—and at the Trap, late in the evening, we were overtaken by <persName>Major Stagg</persName> principal Clerk in the Department of War with letters from <persName>Genl. Wayne</persName> &amp; the Western Army containing official &amp; pleasing accounts of his engagement with the <orgName type="#nation">Indians</orgName> near the British Post [179] at the Rapids of the Miami of the Lake and of his having destroyed all the <orgName type="#nation">Indian</orgName> Settlements on that River in the vicinity of the said Post quite up to the grand Glaize—the quantity not less than 5000 acres—and the Stores &amp;. of <persName>Colo. McGee</persName> the <orgName type="#Britain">British</orgName> Agent of <orgName type="#nation">Indian</orgName> Affairs a mile or two from the <orgName type="#USmilitary">Garrison</orgName>.</p>
+      </body>
+  </text>
+</TEI>

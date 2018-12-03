@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!--Wrong Syntax-->
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,9 +17,9 @@
   </teiHeader>
   <text>
       <body>
-         <placeName>Head Quarters, New York,</placeName> <dateline>June 13, 1776.</dateline>
+         <p><placeName>Head Quarters, New York,</placeName> <date>June 13, 1776.</date></p>
            <p> Sir: I am to inform you that <persName>Colonel Nicholson,</persName> of whose Character and Conduct you have received
-            an unfavorable Impression, is in Town; he comes for the purpose of raising Recruits for a <orgName>New York</orgName>
+            an unfavorable Impression, is in Town; he comes for the purpose of raising Recruits for a <location><settlement>New York</settlement></location>
             Battalion, to the Command of which he has been nominated. When I intimated to him, that from
             certain representations I had received, I judged him very unfit for the Employment, he insisted upon
             a Court of Enquiry to manifest his Innocence, and clear his reputation. Now Sir, as I am not well

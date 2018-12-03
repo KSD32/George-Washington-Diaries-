@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Wrong Syntax-->
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter to Colonel James Clinton</title>
@@ -17,27 +14,27 @@
             <p>From the Library of Congress</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <orgName>Head Quarters, New York,</orgName><dateline>July 7, 1776.</dateline>
-           <p> Sir: I received yours by <persName>Major Rensselaer</persName> and am pleased to find you are making the necessary
-            Preperations to repel the Enemy in Case of an Attack.</p>
-           <p> I hope you will be able to get Arms sufficient for the Men under your Command who are destitute;
+         <p><location><region>Head Quarters, New York,</region></location><date>July 7, 1776.</date></p>
+         <p> Sir: I received yours by <persName>Major Rensselaer</persName> and am pleased to find you are making the necessary
+            Preperations to repel the <orgName type="#Britain">Enemy</orgName> in Case of an Attack.</p>
+         <p> I hope you will be able to get Arms sufficient for the Men under your Command who are destitute;
             but if not, you are to dismiss all those whom you cannot equip. I mean to confine myself to the
-            Militia wholly, as it is equally absurd and unjust, to keep Men in continental Pay, who will be of no
+            <orgName type="#USmilitary">Militia</orgName> wholly, as it is equally absurd and unjust, to keep Men in continental Pay, who will be of no
             Service in Time of Action, for Want of Arms. It is, in Fact, amusing ourselves with the Appearance of
             strength, when at the same Time we want the Reality.</p>
-           <p> <persName>Colonel Knox</persName> informs me, he has no Carriages to spare; but you can have the Carriage Wheels, which
+         <p> <persName>Colonel Knox</persName> informs me, he has no Carriages to spare; but you can have the Carriage Wheels, which
             with the Iron will be delivered to the Care of <persName>Major Rensselaer.</persName></p>
-           <p> As to the Ball for the small Arms, they should be sent, if the Sizes could be ascertained, so as to fit
+         <p> As to the Ball for the small Arms, they should be sent, if the Sizes could be ascertained, so as to fit
             the Musquets exactly; but as that cannot be done, I shall order a sufficient Quantity of Lead to be
             sent up, which you will direct to be cast into Balls suitable for your Purpose. You must furnish the
             Bullet Moulds in the best Manner you can, as there are none here.
             With Regard to the Appointment of <persName>Doctor Tappen,</persName> I would just mention, that as it is a Matter
-            transacted between you and the Provincial Congress, with which I am quite unconnected, I would
-            choose it should continue so. However, by renewing your Application to the Congress, you will
+            transacted between you and the <orgName type="#political">Provincial Congress</orgName>, with which I am quite unconnected, I would
+            choose it should continue so. However, by renewing your Application to the <orgName type="#political">Congress</orgName>, you will
             doubtless receive a satisfactory Answer. I am, etc.</p>
       </body>
-  </text>
+   </text>
 </TEI>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Wrong Syntax-->
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,15 +17,15 @@
   </teiHeader>
   <text>
       <body>
-         <placeName>Mount Vernon,</placeName> <dateline>August 2, 1755.</dateline>
+         <p><location><settlement>Mount Vernon,</settlement></location> <date>August 2, 1755.</date></p>
            <p> Sir: [The Army und'r the Com'd of <persName>G: Braddock</persName> has met with an unfortunate defeat, which has
-            occasioned my ret'n]54 from the <orgName>Ohio;</orgName> [This circumstance enables me to order] the Militia of the
+              occasioned my ret'n]54 from the Ohio;[This circumstance enables me to order] the <orgName type="#USmilitary">Militia</orgName> of the
             several Countys in my district, to meet me and I have therefore taken this earliest oppertunity of
-            inform'g you of it; that you may not be troubled ab't any but <placeName>Eastern Shore Countys,</placeName> unless you will
-            undertake to exercise the whole (saving the two Frontier Countys viz Fairfax and Prince Win. which I
+            inform'g you of it; that you may not be troubled ab't any but <location><settlement>Eastern Shore Countys</settlement></location>, unless you will
+            undertake to exercise the whole (saving the two <location><settlement>Frontier Countys</settlement></location> viz <location><settlement>Fairfax</settlement></location> and <location><settlement>Prince Win</settlement></location>. which I
             will take the trouble off) for the Consideration of 40,£'s if you accept of this offer, I shou'd be glad to
-            know it before the first of <dateline>Sept.</dateline> and I have enclos'd you a Mem'm. of the appointed times that I have
-            desit'd the Officer's, and Militia of each County to meet, that you may proceed accordingly. I am Sir,
+            know it before the first of <date>Sept.</date> and I have enclos'd you a Mem'm. of the appointed times that I have
+            desit'd the Officer's, and <orgName type="#USmilitary">Militia</orgName> of each County to meet, that you may proceed accordingly. I am Sir,
             etc.
          </p>
       </body>

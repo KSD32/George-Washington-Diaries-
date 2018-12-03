@@ -1,8 +1,4 @@
-span.placeName.on{color:aqua}
-span.location.on{color:fuchsia}
 span.persName.on{color:green}
-span.orgName.on{color:orange}
-span.writDocument.on{color:yellow}
 span.date.on{color:purple}
 span.USmilitary.on{color:brown}
 span.political.on{color:lime}
@@ -13,7 +9,6 @@ span.note.on{color:olive}
 span.quote.on{color:red}
 span.city.on{color:navy}
 span.state.on{color:#339933}
-
 
 div{
     background-color: lightblue;

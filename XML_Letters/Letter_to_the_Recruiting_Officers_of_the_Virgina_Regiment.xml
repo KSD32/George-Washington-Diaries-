@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Wrong Syntax -->
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,7 +17,7 @@
   </teiHeader>
   <text>
       <body>
-         <dateline><placeName>[Williamsburg],</placeName> September [3], 1755.</dateline>
+         <p><placeName>[Williamsburg],</placeName> <date>September [3], 1755.</date></p>
             <p n="1">First; That each Captain shall, by beat of Drum or otherwise, Raise Thirty men; Each Lieutenant
             Eighteen; and each Ensign, Twelve men.</p>
             <p n="2">Secondly: That each Captain shall appoint proper Persons to act as non-commissioned Officers,
@@ -70,7 +67,8 @@
             <persName>Ensigns Millner,</persName><persName> Dean</persName> and <persName>Weedon;</persName> who were not appointed to any particular Companies, were
             ordered to Rendezvous at <placeName>Fredericksburg;</placeName> <persName>Lieutenant Lowry;</persName> <persName>Ensign Weedon;</persName> <placeName>Alexandria;</placeName> <persName>Lieutenant Brockenbrough,</persName>
             <persName>Lieutenant John King,</persName> <persName>Ensign John Dean.
-         </p></persName>
+        </persName>
+           </p>
       </body>
   </text>
 </TEI>

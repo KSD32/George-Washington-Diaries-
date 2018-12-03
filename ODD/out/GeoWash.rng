@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-11-02T18:52:20Z. .
+Schema generated from ODD source 2018-12-03T04:41:47Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1542,7 +1542,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teiforeign"/>
          <ref name="teiemph"/>
          <ref name="teisoCalled"/>
-         <ref name="teigloss"/>
          <ref name="teiterm"/>
          <ref name="teititle"/>
       </choice>
@@ -1552,7 +1551,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teiforeign"/>
          <ref name="teiemph"/>
          <ref name="teisoCalled"/>
-         <ref name="teigloss"/>
          <ref name="teiterm"/>
          <ref name="teititle"/>
       </choice>
@@ -1561,7 +1559,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <ref name="teiforeign"/>
       <ref name="teiemph"/>
       <ref name="teisoCalled"/>
-      <ref name="teigloss"/>
       <ref name="teiterm"/>
       <ref name="teititle"/>
    </define>
@@ -1574,9 +1571,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </optional>
       <optional>
          <ref name="teisoCalled"/>
-      </optional>
-      <optional>
-         <ref name="teigloss"/>
       </optional>
       <optional>
          <ref name="teiterm"/>
@@ -1596,9 +1590,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teisoCalled"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="teigloss"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="teiterm"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -1614,9 +1605,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </oneOrMore>
       <oneOrMore>
          <ref name="teisoCalled"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="teigloss"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="teiterm"/>
@@ -2613,9 +2601,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </choice>
    </define>
    <define name="teimodel.glossLike">
-      <choice>
-         <ref name="teigloss"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="teimodel.quoteLike">
       <choice>
@@ -3338,19 +3324,6 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
          <ref name="teiatt.global.attributes"/>
          <ref name="teiatt.translatable.attributes"/>
          <ref name="teiatt.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="teigloss">
-      <element name="gloss">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a phrase or word used to provide a gloss or definition for some other word or phrase. [3.3.4. Terms, Glosses, Equivalents, and Descriptions 22.4.1. Description of Components]</a:documentation>
-         <ref name="teimacro.phraseSeq"/>
-         <ref name="teiatt.global.attributes"/>
-         <ref name="teiatt.declaring.attributes"/>
-         <ref name="teiatt.translatable.attributes"/>
-         <ref name="teiatt.typed.attributes"/>
-         <ref name="teiatt.pointing.attributes"/>
-         <ref name="teiatt.cReferencing.attributes"/>
          <empty/>
       </element>
    </define>
@@ -6268,7 +6241,24 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <ref name="teiatt.datable.attributes"/>
          <ref name="teiatt.editLike.attributes"/>
          <ref name="teiatt.personal.attributes"/>
-         <ref name="teiatt.typed.attributes"/>
+         <ref name="teiatt.typed.attribute.subtype"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>#USmilitary</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#Britain</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#political</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#nation</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#religious</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>#military</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -8164,17 +8154,8 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
       </element>
    </define>
    <start>
-   </orgName>      <choice>
+      <choice>
          <ref name="teiTEI"/>
       </choice>
    </start>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="starterODD-letterDates-constraint-rule-10">
-      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                context="tei:dateline">
-              <sch:report test="matches(., '\d,\s*\d{4}')">Date element missing!! Please wrap the date in date element</sch:report>
-            </sch:rule>
-   </pattern>
 </grammar>

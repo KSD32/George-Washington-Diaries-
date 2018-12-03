@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Wrong Syntax-->
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,20 +18,20 @@
   </teiHeader>
   <text>
       <body>
-        <placeName> Mount Vernon,</placeName> <dateline>August 2, 1755.</dateline>
+       <p> <location><settlement> Mount Vernon,</settlement></location> <date>August 2, 1755.</date></p>
            <p> Sir: I intend myself the honour of waitg. upon your County, in order to exercise the Militia; and
             shou'd be glad if you wou'd appoint your Officer's to meet me at the Court Ho., or some other
-            convenient place with a Firelock, Ammunition. on the of <dateline>September</dateline> next, and the Militia properly
+            convenient place with a Firelock, Ammunition. on the of <date>September</date> next, and the Militia properly
             accoutre'd, the day following. I am Sir, etc.</p>
-            <p><placeName>Fairfax Officers</placeName> <dateline>31st 1st.</dateline>
-            <placeName>Militia Prince Wm</placeName><dateline> 4 5 </dateline>
-            <placeName>Culpeper</placeName><dateline> 8 9 </dateline>
-            <placeName>Stafford</placeName> <dateline>12 13</dateline> 
-            <placeName>King George</placeName> <dateline>15 16</dateline> 
-            <placeName>Westmoreland</placeName> <dateline> 19 20 </dateline>
-            <placeName>Richmond</placeName> <dateline>22 23</dateline> 
-            <placeName>Northumberland</placeName> <dateline>26 27 </dateline>
-            <placeName>Lancaster</placeName> <dateline>29 30 September</dateline> </p>
+            <p><orgName type="#military">Fairfax Officers</orgName> <date>31st 1st.</date>
+            <orgName type="#USmilitary">Militia Prince Wm</orgName><date> 4 5 </date>
+            <location><settlement>Culpeper</settlement></location><date> 8 9 </date>
+            <location><settlement>Stafford</settlement></location> <date>12 13</date> 
+            <location><settlement>King George</settlement></location> <date>15 16</date> 
+            <location><settlement>Westmoreland</settlement></location> <date> 19 20 </date>
+            <location><settlement>Richmond</settlement></location> <date>22 23</date> 
+            <location><settlement>Northumberland</settlement></location> <date>26 27 </date>
+            <location><settlement>Lancaster</settlement></location> <date>29 30 September</date> </p>
       </body>
   </text>
 </TEI>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../WashLetterTEI.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Wrong Syntax-->
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -20,11 +18,11 @@
   </teiHeader>
   <text>
       <body>
-         <orgName>Philadelphia,</orgName><dateline>August 20, 1793.</dateline>
-            <p>Gentlemen: This will be handed to you by <persName>Mr. James Greenleaf,</persName> a native of <placeName>Boston,</placeName> who has resided
-            for some years past in Amsterdam, and has lately been appointed Consul for the U. S. at that place.
+        <p> <location><settlement>Philadelphia,</settlement></location> <date>August 20, 1793.</date></p>
+            <p>Gentlemen: This will be handed to you by <persName>Mr. James Greenleaf,</persName> a native of <location><settlement>Boston,</settlement></location> who has resided
+            for some years past in <location><settlement>Amsterdam</settlement></location>, and has lately been appointed Consul for the <orgName type="#nation">U. S.</orgName> at that place.
             This Gentleman, I understand, has it in contemplation to make certain proposals to you for building
-            a number of houses in the <orgName>Federal City,</orgName> provided he can have lots upon such terms and conditions
+            a number of houses in the <location><settlement>Federal City,</settlement></location> provided he can have lots upon such terms and conditions
             as may correspond with his interest in the undertaking while it tends, at the same time, to promote
             the great object of the city. I am pursuaded, Gentlemen, that you will listen with attention and weigh
             with candour any proposals that may promise to promote the growth of the City in the degree that <persName>Mr. Greenleaf's</persName> undertaking upon the extensive
@@ -37,9 +35,9 @@
             measures to satisfy you on this head. He has been represented to me as a Gentleman of large property and having the command of much money in this Country and in 
             Europe; but I can say nothing on this head from my own knowledge. Having had occasion to make enquiry respecting him
             before his appointment to the office of Consul, the Accounts which I received were highly favourable
-            to <persName>Mr. Greenleaf,</persName> both as to the respectability of his connections in this Country and in <placeName>Holland</placeName>
+            to <persName>Mr. Greenleaf,</persName> both as to the respectability of his connections in this Country and in <orgName type="#nation">Holland</orgName>
             (where he married), and as to his own character. And I have reason to believe that if you can find
-            it consistent with your duty to the public to attach <persName>Mr. Greenleaf</persName>to the <orgName>Federal City,</orgName> he will be a
+            it consistent with your duty to the public to attach <persName>Mr. Greenleaf</persName>to the <location><settlement>Federal City,</settlement></location> he will be a
             valuable acquisition. I am Yours
          </p>
       </body>
