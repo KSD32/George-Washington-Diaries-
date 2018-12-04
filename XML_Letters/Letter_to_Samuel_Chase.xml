@@ -20,7 +20,7 @@
          <p><placeName>Head Quarters, New York,</placeName> <date>June 13, 1776.</date></p>
            <p> Sir: I am to inform you that <persName>Colonel Nicholson,</persName> of whose Character and Conduct you have received
             an unfavorable Impression, is in Town; he comes for the purpose of raising Recruits for a <location><settlement>New York</settlement></location>
-            Battalion, to the Command of which he has been nominated. When I intimated to him, that from
+            <orgName type="#military">Battalion</orgName>, to the Command of which he has been nominated. When I intimated to him, that from
             certain representations I had received, I judged him very unfit for the Employment, he insisted upon
             a Court of Enquiry to manifest his Innocence, and clear his reputation. Now Sir, as I am not well
             apprized of any particular charge to be exhibited against him, I must request you to acquaint me

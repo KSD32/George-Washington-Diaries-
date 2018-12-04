@@ -18,13 +18,13 @@
   <text>
       <body>
         <p><placeName>Camp Cambridge,</placeName> <date>October 24, 1775.</date></p>
-           <p> Sir: My conjecture of the Destination of the late Squadron from <placeName>Boston</placeName> in my last, has been
+           <p> Sir: My conjecture of the Destination of the late <orgName type="#military">Squadron</orgName> from <placeName>Boston</placeName> in my last, has been
             unhappily verified, by an outrage exceeding in Barbarity and cruelty every hostile Act practiced
             among civilized nations; I have inclosed the Account given me by <persName>Mr. Jones</persName> a Gentleman of the
             <placeName>Town of Falmouth</placeName> of the Destruction of that flourishing Village. He is a very great sufferer and
             informs me that the Time allowed for the removal of Effects was so small, that valuable Property of
             all kinds and to a great amount has been destroyed.</p>
-            <p> The Orders shewn by the Captain for this horred proceedure, by which it appears the same
+            <p> The Orders shewn by the <roleName>Captain</roleName> for this horred proceedure, by which it appears the same
             desolation is meditated upon all the Towns on the Coast, made it my Duty to communicate it as
             quickly and extensively as possible. As <placeName>Portsmouth</placeName> was the next place to which he proposed to go,
             <persName>General Sullivan </persName>was permitted to go up and give them his Assistance and advice to ward off the

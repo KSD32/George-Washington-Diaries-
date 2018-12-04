@@ -45,7 +45,9 @@
                 <valItem ident="#political"/>
                 <valItem ident="#nation"/>
                 <valItem ident="#religious"/>
-                <valItem ident="#military"></valItem>
+                <valItem ident="#military"/>
+                <valItem ident="#NativeTribe"/>
+                <valItem ident="IroquoisNation"/>
               </valList>
             </attDef>
           </attList>

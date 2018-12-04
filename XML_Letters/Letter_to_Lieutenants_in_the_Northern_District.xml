@@ -19,12 +19,12 @@
   <text>
       <body>
        <p> <location><settlement> Mount Vernon,</settlement></location> <date>August 2, 1755.</date></p>
-           <p> Sir: I intend myself the honour of waitg. upon your County, in order to exercise the Militia; and
+           <p> Sir: I intend myself the honour of waitg. upon your County, in order to exercise the <orgName type="#USmilitary">Militia</orgName>; and
             shou'd be glad if you wou'd appoint your Officer's to meet me at the Court Ho., or some other
-            convenient place with a Firelock, Ammunition. on the of <date>September</date> next, and the Militia properly
+            convenient place with a Firelock, Ammunition. on the of <date>September</date> next, and the <orgName type="#USmilitary">Militia</orgName> properly
             accoutre'd, the day following. I am Sir, etc.</p>
             <p><orgName type="#military">Fairfax Officers</orgName> <date>31st 1st.</date>
-            <orgName type="#USmilitary">Militia Prince Wm</orgName><date> 4 5 </date>
+                <orgName type="#USmilitary">Militia</orgName> <location><settlement>Prince Wm</settlement></location><date> 4 5 </date>
             <location><settlement>Culpeper</settlement></location><date> 8 9 </date>
             <location><settlement>Stafford</settlement></location> <date>12 13</date> 
             <location><settlement>King George</settlement></location> <date>15 16</date> 

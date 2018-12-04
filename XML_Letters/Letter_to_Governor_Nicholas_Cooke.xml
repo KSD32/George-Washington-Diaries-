@@ -2,6 +2,7 @@
 
 
 
+
 <?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -20,7 +21,7 @@
   <text>
       <body>
         <p><location><settlement>Cambridge,</settlement></location><date> March 17, 1776.</date></p>
-           <p> Sir: I have the Pleasure to inform you, that this morning the Ministerial <orgName type="#nation">Troops</orgName> evacuated the Town of
+           <p> Sir: I have the Pleasure to inform you, that this morning the Ministerial <orgName type="#military">Troops</orgName> evacuated the Town of
            <location><settlement> Boston</settlement></location>, without destroying it and that we are now in the full possession; upon which event, I beg leave to Congratulate you, and sincerely wish, if the 
             Ministry persevere in the same unconstitution and despotic measures, which too long have marked their conduct, that our opposition and
             resistance, in every Quarter, may be crowned with the success they have been here. Where their destination is, or what plans they have in view, is altogether unknown; 

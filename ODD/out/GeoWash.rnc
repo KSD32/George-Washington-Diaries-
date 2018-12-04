@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-12-03T04:42:00Z. .
+# Schema generated from ODD source 2018-12-03T19:53:56Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -3969,6 +3969,12 @@ teiorgName =
       | 
         ##
         "#military"
+      | 
+        ##
+        "#NativeTribe"
+      | 
+        ##
+        "IroquoisNation"
     },
     empty
   }
