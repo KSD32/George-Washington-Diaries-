@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Mrs. George William Fairfax, Friend of Washington</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written by George Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <orgName>Bullskin,</orgName><dateline>April 30, 1755.</dateline>
+            <p>Dear Madam: In order to engage your corrispondence, I think it expedient just to deserve it; which' I
+            shall endeavour to do by embracing the earliest, and every oppertunity of writing to you.
+            It will be needless to expatiate on the pleasures that communication of this kind will afford me, as it
+            shall suffice to say; a corrispondance with my Friends is the greatest satisfaction I expect to enjoy, in
+            the course of the Campaigne, and that none of my friends are able to convey more real delight than
+            you can to whom I stand indebted for so many obligations.</p>
+            <p>If an old proverb can claim my belief I am certainly [ ? ] share of success; for surely no man ever
+            made a worse beginning, than I have; out of 4 Horses which we brought from home, one was kill'd
+            outright, and the other 3 render'd unfit for use; so that I have been detain'd here three days already,
+            and how much longer I may continue to be so, the Womb of time most discover.
+            I must beg my Compliments to <persName>Miss. Hannah,</persName> <persName>Miss Dent,</persName> and any other's that think me worthy of
+            their enquirys.</p>
+            <p>I am Madam Yr. most Obedt. Servt.</p>
+      </body>
+  </text>
+</TEI>

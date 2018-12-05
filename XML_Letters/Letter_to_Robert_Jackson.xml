@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Washington's Friend Robert Jackson</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written by George Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <location><settlement>Mount Vernon,</settlement></location> <dateline>August 2, 1755.</dateline>
+            <p>Dr. Sir: I must acknowledge you had great reason to be terrified with the first acc'ts, that was given
+            of our unhappy defeat, and I must own, I was not a little surpris'd to find that <persName>Governor Innis</persName> was
+            the means of alarming the Country with a report of that extraordinary nature, without having
+            any better confirmation of the truth, than an affrighted waggoner's story. Its true, we have been
+            beaten, most shamefully beaten, by a handful of Men ! who only intended to molest and disturb
+            our March; Victory was their smallest expectation, but see the wondrous works of Providence! the
+            uncertainty of Human things! We, but a few moments before, believ'd our number's almost equal
+            to the <genName>Canadian Force;</genName> they only expected to annoy us. </p>
+           <p> Yet, contrary to all expectation and human probability, and even to the common course of things, we were totally defeated, sustain'd the loss
+            of every thing; which they have got, are enrichen'd and strengthened by it. This, as you observe, must be an affecting story to the Colony; and will, no doubt, 
+            license the tongues of People to censure those they think most blamably; which by the by, often falls very wrongfully. I join very heartily with
+            you in believing that when this story comes to be related in future Annals, it will meet with ridicule or in
+            dignation; for had I not been witness to the fact on that fatal Day, I sh'd scarce give credit to it now.</p>
+           <p> Whenever it suits you to come into Fairfax I hope you will make your home at <placeName>Mount Vernon.</placeName>
+            Please to give my Compts. to all inquiring Friends; and I assure you, nothing cou'd have added
+            greater satisfaction to my safe return, than hearing of the friendly concern that was express'd on my
+            suppos'd Death. I am, Yours.</p>
+      </body>
+  </text>
+</TEI>
