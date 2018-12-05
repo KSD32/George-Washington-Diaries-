@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -18,8 +17,8 @@
   </teiHeader>
   <text>
       <body>
-         <orgName>Camp, at George's-Creek,</orgName> <dateline>June 14, 1755.</dateline>
-           <p> Dr. Saml: I received your's of the <date>27th. of May,</date> and assure you that nothing is more agreeable to me
+        <p><location><settlement>Camp, at George's-Creek,</settlement></location><date>June 14, 1755.</date></p> 
+           <p>Dr. Saml: I received your's of the <date>27th. of May,</date> and assure you that nothing is more agreeable to me
             than to have our Deep run Tract divided; nor nothg. is more agreeable than for my Brothr. Jno. to act
             on my behalf, whose conduct in the affair I shall abide by: so that you have nothing more to do but
             consult with him about the time, and endeavour to get it done upon as cheap terms as possible.
