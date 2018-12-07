@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="800">
+   <g transform="translate (30,500)">
+      <line x1="150"
+            x2="150"
+            y1="100"
+            y2="-410"
+            stroke="black"
+            stroke-width="3"/>
+      <line x1="148.5"
+            x2="3000"
+            y1="100"
+            y2="100"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="490" y="155"> References</text>
+      <text x="490" y="-430">References Made Within Washington's May 1781 Diary Entries</text>
+      <rect x="195" y="8" width="75" height="92" fill="blue"/>
+      <rect x="320" y="-413" width="75" height="513.3" fill="green"/>
+      <rect x="445" y="-210" width="75" height="309" fill="grey"/>
+      <rect x="570" y="-238" width="75" height="340" fill="purple"/>
+      <rect x="695" y="-35" width="75" height="133" fill="yellow"/>
+      <rect x="820" y="35" width="75" height="63" fill="orange"/>
+      <rect x="945" y="-238" width="75" height="336.6" fill="red"/>
+      <rect x="1070" y="-10" width="75" height="110" fill="pink"/>
+      <text x="130" y="100">0</text>
+      <text x="130" y="0">10</text>
+      <text x="130" y="-100">20</text>
+      <text x="130" y="-200">30</text>
+      <text x="130" y="-300">40</text>
+      <text x="130" y="-400">50</text>
+      <text x="130" y="-500">60</text>
+      <text x="195" y="120">State</text>
+      <text x="320" y="120">Person</text>
+      <text x="445" y="120">US Military</text>
+      <text x="570" y="120">Date</text>
+      <text x="695" y="120">Military Officer</text>
+      <text x="820" y="120">Political</text>
+      <text x="945" y="120">City</text>
+      <text x="1070" y="120">Britain</text>
+      <text x="195" y="135">(8)</text>
+      <text x="320" y="135">(50)</text>
+      <text x="445" y="135">(30)</text>
+      <text x="570" y="135">(34)</text>
+      <text x="695" y="135">(14)</text>
+      <text x="820" y="135">(5)</text>
+      <text x="945" y="135">(34)</text>
+      <text x="1070" y="135">(10)</text>
+      <text x="25" y="-250"> Total Counted</text>
+   </g>
+</svg>

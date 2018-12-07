@@ -55,4 +55,18 @@ version="3.0">
             <xsl:apply-templates/>
         </span></strong>
     </xsl:template>
+    <xsl:template match="roleName[@type='#MilOfficer']">
+        <strong>
+            <span class="MilOfficer">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="orgName[@type='#USmilitary']">
+        <strong>
+            <span class="USmilitary">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
 </xsl:stylesheet>

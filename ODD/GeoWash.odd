@@ -52,7 +52,20 @@
             </attDef>
           </attList>
         </elementSpec>
-      
+        <elementSpec ident="roleName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <datatype><rng:text/></datatype>
+              <valList type="closed">
+                <valItem ident="#USpolitical"/>
+                <valItem ident="#ForeignPolitical"/>
+                <valItem ident="#MilOfficer"/>
+                <valItem ident="#UScourt"/>
+                <valItem ident="#LawEnforcement"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
       </schemaSpec>
     </body>
   </text>
