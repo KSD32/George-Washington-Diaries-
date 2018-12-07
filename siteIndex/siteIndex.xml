@@ -52,8 +52,8 @@
             </person>
             <person>
                <persName>Captain Peachy</persName>
-               <birth/>
-               <death/>
+               <birth>1729</birth>
+               <death>1802</death>
                <note/>
             </person>
             <person>
@@ -64,8 +64,8 @@
             </person>
             <person>
                <persName>Captain Spotswood</persName>
-               <birth/>
-               <death/>
+               <birth>1748</birth>
+               <death>1800</death>
                <note/>
             </person>
             <person>
@@ -82,8 +82,8 @@
             </person>
             <person>
                <persName>Colonel Nicholson</persName>
-               <birth/>
-               <death/>
+               <birth>1737</birth>
+               <death>1804</death>
                <note/>
             </person>
             <person>
@@ -136,8 +136,8 @@
             </person>
             <person>
                <persName>Ensign Nathaniel Thompson</persName>
-               <birth/>
-               <death/>
+               <birth>1726</birth>
+               <death>1785</death>
                <note/>
             </person> 
             <person> 
@@ -160,9 +160,9 @@
             </person>
             <person>
                <persName>Fœderalist</persName>
-               <birth/>
+               <birth>1789</birth>
                <death/>
-               <note/>
+               <note>Formed during Washington's first administration, as did their opposing party, the Democratic-Republicans.</note>
             </person>
             <person>
                <persName>General Braddock</persName>
@@ -172,15 +172,15 @@
             </person>
             <person>
                <persName>General Lincoln</persName>
-               <birth/>
-               <death/>
+               <birth>1733</birth>
+               <death>1810</death>
                <note/>
             </person>
             <person>
                <persName>George Washington</persName>
-               <birth/>
-               <death/>
-               <note/>
+               <birth>1732</birth>
+               <death>1799</death>
+               <note>First President of the United States</note>
             </person>
             <person>
                <persName>Govenor. Shirley</persName>
@@ -188,7 +188,6 @@
                <death/>
                <note/>
             </person>
-            
             <person>
                <persName>Lieutenant Brockenbrough</persName>
                <birth/>
@@ -227,8 +226,8 @@
             </person>
             <person>
                <persName>Lieutenant Lomax </persName>
-               <birth/>
-               <death/>
+               <birth>1745</birth>
+               <death>1813</death>
                <note/>
             </person>
             <person>
@@ -239,8 +238,8 @@
             </person>
             <person>
                <persName>Lieutenant Peter Steenbergen</persName>
-               <birth/>
-               <death/>
+               <birth>1723</birth>
+               <death>1779</death>
                <note/>
             </person>
             <person>
@@ -257,8 +256,8 @@
             </person>
             <person>
                <persName>Mr. James Greenleaf</persName>
-               <birth/>
-               <death/>
+               <birth>1765</birth>
+               <death>1843</death>
                <note/>
             </person>
             <person>
@@ -269,9 +268,9 @@
             </person>
             <person>
                <persName>Patriots</persName>
-               <birth/>
+               <birth>Active befire 1775</birth>
                <death/>
-               <note/>
+               <note>Colonist against British rule; rebels.</note>
             </person>
             <person>
                <persName>Prince William</persName>

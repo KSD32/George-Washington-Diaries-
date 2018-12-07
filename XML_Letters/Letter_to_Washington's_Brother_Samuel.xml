@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Washington's Brother Samuel</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Written by George Washington</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <p><location><settlement>Camp, at George's-Creek,</settlement></location><date>June 14, 1755.</date></p> 
+           <p>Dr. Saml: I received your's of the <date>27th. of May,</date> and assure you that nothing is more agreeable to me
+            than to have our Deep run Tract divided; nor nothg. is more agreeable than for my Brothr. Jno. to act
+            on my behalf, whose conduct in the affair I shall abide by: so that you have nothing more to do but
+            consult with him about the time, and endeavour to get it done upon as cheap terms as possible.
+            I am excessively hurried, therefore have not time to be particular in informing you of the occurencies
+            that have, or may happen; we have got thus far, and shall continue on to <placeName>Fort Duquisne;</placeName> where, I
+            hope the dispute will soon be decided, and then I shall be able to give you a more particular acct.
+            pray make my Compts. to my Sister and to <persName>Colo. Champes</persName> Family
+            I am Dr. Saml. Yours.</p>
+      </body>
+  </text>
+</TEI>
