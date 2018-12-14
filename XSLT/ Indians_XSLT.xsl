@@ -45,16 +45,65 @@
             <xsl:apply-templates/>
         </span></strong>
     </xsl:template>
-    <xsl:template match="persName/forename">
+   <xsl:template match="orgName[@type='#NativeTribe']">
+       <strong>
+           <span class="NativeTribe">
+               <xsl:apply-templates/>
+           </span>
+       </strong>
+   </xsl:template>
+    <xsl:template match="orgName[@type='#Britain']">
         <strong>
-            <span class="persName">
+            <span class="Britain">
                 <xsl:apply-templates/>
             </span>
         </strong>
     </xsl:template>
-    <xsl:template match="surname">
+    <xsl:template match="orgName[@type='#USpolitical']">
         <strong>
-            <span class="persName">
+            <span class="USpolitical">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="location/settlement">
+        <strong>
+            <span class="city">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="location/region">
+        <strong>
+            <span class="state">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="orgName[@type='#ForeignPolitical']">
+        <strong>
+            <span class="ForeignPolitical">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="orgName[@type='#NativeTribe']">
+        <strong>
+            <span class="NativeTribe">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="orgName[@type='#IroquoisNation']">
+        <strong>
+            <span class="NativeTribe">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="orgName[@type='#USmilitary']">
+        <strong>
+            <span class="USmilitary">
                 <xsl:apply-templates/>
             </span>
         </strong>

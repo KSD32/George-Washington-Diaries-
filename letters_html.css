@@ -1,0 +1,94 @@
+span.placeName.on{color:aqua}
+span.persName.on{color:green}
+span.orgName.on{color:orange}
+span.writDocument.on{color:yellow}
+span.date.on{color:purple}
+span.USmilitary.on{color:brown}
+span.political.on{color:lime}
+span.military.on{color:white}
+span.nation.on{color:gray}
+span.religious.on{color:maroon}
+span.note.on{color:#002080}
+span.quote.on{color:red}
+span.city.on{color:#ffcc99}
+span.state.on{color:#339933}
+span.MilOfficer.on{color:#ff99cc}
+span.Britain.on{color:#ff9900}
+span.NativeTribe.on{color:#333300}
+span.USpolitical.on{color:#99e699}
+span.AmericanRevolution.on{color:#ff9966}
+
+
+div#letterBackground{
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+body {
+    background-image:url("george-washingtons-letter-jewish-community-newport.jpg");
+   
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

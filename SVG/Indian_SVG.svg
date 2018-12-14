@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="1000"
+     viewBox="0 0 1500 1500">
+   <g transform="translate (30,500)">
+      <line x1="150"
+            x2="150"
+            y1="100"
+            y2="-410"
+            stroke="black"
+            stroke-width="3"/>
+      <line x1="148.5"
+            x2="3000"
+            y1="100"
+            y2="100"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="490" y="155"> References</text>
+      <text x="490" y="-430">References Made Within Washington's Letter to Indian Chiefs</text>
+      <!--What is the value of $State> 
+             1-->
+      <!--What is the value of $person> 
+             6-->
+      <!--What is the value of $USmil> 
+             1-->
+      <!--What is the value of $date> 
+             3-->
+      <!--What is the value of $City> 
+             4-->
+      <!--What is the value of $Brit> 
+             3-->
+      <!--What is the value of $Place> 
+             1-->
+      <!--What is the value of $Native> 
+             7-->
+      <!--What is the value of $USPolic> 
+             1-->
+      <rect x="195" y="35" width="75" height="64" fill="blue"/>
+      <rect x="320" y="-276" width="75" height="375" fill="green"/>
+      <rect x="445" y="35" width="75" height="64" fill="grey"/>
+      <rect x="570" y="-84" width="75" height="182.1" fill="purple"/>
+      <rect x="695" y="-152" width="75" height="250" fill="yellow"/>
+      <rect x="820" y="-84" width="75" height="182.1" fill="orange"/>
+      <rect x="945" y="35" width="75" height="64" fill="red"/>
+      <rect x="1070" y="-329" width="75" height="427" fill=" #80ff80"/>
+      <rect x="1195" y="35" width="75" height="64" fill="#5500ff"/>
+      <text x="195" y="120">States</text>
+      <text x="320" y="120">Person</text>
+      <text x="445" y="120">US Military</text>
+      <text x="570" y="120">Date</text>
+      <text x="695" y="120">Cities</text>
+      <text x="820" y="120">Britain</text>
+      <text x="945" y="120">Place</text>
+      <text x="1070" y="120">Native Tribes</text>
+      <text x="1195" y="120">US Political</text>
+      <text x="130" y="100">0</text>
+      <text x="130" y="40">1</text>
+      <text x="130" y="-20">2</text>
+      <text x="130" y="-80">3</text>
+      <text x="130" y="-140">4</text>
+      <text x="130" y="-200">5</text>
+      <text x="130" y="-260">6</text>
+      <text x="130" y="-320">7</text>
+      <text x="195" y="135">(1)</text>
+      <text x="320" y="135">(6)</text>
+      <text x="445" y="135">(1)</text>
+      <text x="570" y="135">(3)</text>
+      <text x="695" y="135">(4)</text>
+      <text x="820" y="135">(3)</text>
+      <text x="945" y="135">(1)</text>
+      <text x="1070" y="135">(7)</text>
+      <text x="1195" y="135">(1)</text>
+      <text x="25" y="-250"> Total Counted</text>
+   </g>
+</svg>

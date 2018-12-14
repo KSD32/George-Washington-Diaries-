@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2000"
+     height="2000"
+     viewBox="0 0 3000 3000">
+   <g transform="translate (30,500)">
+      <line x1="150"
+            x2="150"
+            y1="100"
+            y2="-410"
+            stroke="black"
+            stroke-width="3"/>
+      <line x1="148.5"
+            x2="3000"
+            y1="100"
+            y2="100"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="490" y="155"> References</text>
+      <text x="490" y="-430">References Made Within All of Washinton's Letters</text>
+      <!--What is the value of $State> 
+             1-->
+      <!--What is the value of $person> 
+             6-->
+      <!--What is the value of $USmil> 
+             1-->
+      <!--What is the value of $date> 
+             3-->
+      <!--What is the value of $MilOfi> 
+             0-->
+      <!--What is the value of $Polic> 
+             0-->
+      <!--What is the value of $City> 
+             4-->
+      <!--What is the value of $Brit> 
+             3-->
+      <!--What is the value of $Place> 
+             1-->
+      <!--What is the value of $Milt> 
+             0-->
+      <!--What is the value of $Native> 
+             7-->
+      <!--What is the value of $USPolic> 
+             1-->
+      <!--What is the value of $war> 
+             0-->
+      <rect x="195" y="1" width="75" height="1" fill="blue"/>
+      <rect x="320" y="-6" width="75" height="6" fill="green"/>
+      <rect x="445" y="-1" width="75" height="1" fill="grey"/>
+      <rect x="570" y="-3" width="75" height="3" fill="purple"/>
+      <rect x="695" y="-0" width="75" height="0" fill="yellow"/>
+      <rect x="820" y="0" width="75" height="0" fill="orange"/>
+      <rect x="945" y="-4" width="75" height="4" fill="red"/>
+      <rect x="1070" y="-3" width="75" height="3" fill="pink"/>
+      <rect x="1195" y="-1" width="75" height="1" fill="#6666ff"/>
+      <rect x="1220" y="-0" width="75" height="0" fill="#e600e6"/>
+      <rect x="1445" y="-7" width="75" height="7" fill="#80002a"/>
+      <rect x="1570" y="-1" width="75" height="1" fill="#99ff99"/>
+      <rect x="1695" y="-0" width="75" height="0" fill=" #d2a679"/>
+      <text x="195" y="120">State</text>
+      <text x="320" y="120">Person</text>
+      <text x="445" y="120">US Military</text>
+      <text x="570" y="120">Date</text>
+      <text x="695" y="120">Military Officer</text>
+      <text x="820" y="120">Political</text>
+      <text x="945" y="120">City</text>
+      <text x="1070" y="120">Britain</text>
+      <text x="1195" y="120">Places</text>
+      <text x="1320" y="120">Military</text>
+      <text x="1445" y="120">Native Tribes</text>
+      <text x="1570" y="120">US Political</text>
+      <text x="1695" y="120">Wars</text>
+   </g>
+</svg>

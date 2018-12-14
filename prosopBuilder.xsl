@@ -47,7 +47,7 @@
 </listPerson>
                 
 <listOrg>
-    <xsl:for-each select="distinct-values($washColl//orgName | $washColl//location/region) ! normalize-space()">
+    <xsl:for-each select="distinct-values($washColl//orgName) ! normalize-space()">
         <xsl:sort/>
         <org>
             <orgName><xsl:value-of select="current()"/></orgName>
@@ -59,7 +59,7 @@
 </listOrg>
 
 <listPlace>
-    <xsl:for-each select="distinct-values($washColl//placeName | $washColl//location[not(region)]) ! normalize-space()">
+    <xsl:for-each select="distinct-values($washColl//placeName | $washColl//location[not(region)] | $washColl//location/region) ! normalize-space()">
         <xsl:sort/>
     <place>
         <placeName><xsl:value-of select="current()"/></placeName>
@@ -70,7 +70,7 @@
     </xsl:for-each>
 </listPlace>
 <listevent>
-    <xsl:for-each select="distinct-values($washColl//event | $washColl//event) ! normalize-space()">
+    <xsl:for-each select="distinct-values($washColl//name | $washColl//event) ! normalize-space()">
         <xsl:sort/>
         <event>
             <listevent><xsl:value-of select="current()"/></listevent>

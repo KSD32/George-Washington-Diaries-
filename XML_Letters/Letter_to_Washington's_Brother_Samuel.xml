@@ -17,9 +17,9 @@
   </teiHeader>
   <text>
       <body>
-        <p><location><settlement>Camp, at George's-Creek,</settlement></location><date>June 14, 1755.</date></p> 
+        <p><placeName>Camp, at George's-Creek,</placeName><date>June 14, 1755.</date></p>
            <p>Dr. Saml: I received your's of the <date>27th. of May,</date> and assure you that nothing is more agreeable to me
-            than to have our Deep run Tract divided; nor nothg. is more agreeable than for my Brothr. Jno. to act
+            than to have our Deep run Tract divided; nor nothg. is more agreeable than for my Brothr. <persName>Jno</persName>. to act
             on my behalf, whose conduct in the affair I shall abide by: so that you have nothing more to do but
             consult with him about the time, and endeavour to get it done upon as cheap terms as possible.
             I am excessively hurried, therefore have not time to be particular in informing you of the occurencies

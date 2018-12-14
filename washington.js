@@ -140,6 +140,13 @@ function toggle() {
                 USpoli[i].classList.toggle("on")
             }
     };
+     break;
+     case "Namtoggle": {
+            var Nam = document.getElementsByClassName("name");
+            for (var i = 0; i < Nam.length; i++) {
+                Nam[i].classList.toggle("on")
+            }
+    };
     }
     }
 

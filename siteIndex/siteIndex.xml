@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../ODD/out/GeoWash.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -8,7 +9,7 @@
             <author>Kiara DeVore</author>
             <respStmt>
                <resp>With assistance from</resp>
-               <name>Elisa Beshero-Bondar</name>
+               <name type="#professor">Elisa Beshero-Bondar</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -26,228 +27,359 @@
    <text>
       <body>
          <listPerson>
-            <person>
-               <persName>Captain Bell</persName>
+            <person xml:id="Smith">
+               <persName>Capt. Smith</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Bell">
+               <persName>Captain Bell,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Harrison">
+               <persName>Captain Harrison,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+          
+            <person xml:id="Lewis">
+               <persName>Captain Lewis,</persName>
+               <birth>October 9, 1720</birth>
+               <death>September 26, 1781</death>
+               <note>A colonel of militia during the French and Indian War, and brigadier general in the American Revolutionary War, Lewis is most famous for his 1774 victory in the Battle of Point Pleasant in Dunmore's War. He also helped found Liberty Hall (later Washington and Lee University), when it was made into a college in 1776.[1</note>
+            </person>
+            <person xml:id="McKenzie">
+               <persName>Captain McKenzie,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Peachy">
+               <persName>Captain Peachy,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Spotswood">
+               <persName>Captain Spotswood,</persName>
+               <birth n="1748"/>
+               <death n="1800"/>
+               <note >He was commissioned Captain of the 10th Virginia Continental Line November 29, 1776, Wounded at the Battle of Brandywine, Delaware September 11, 1777: then again he was Severely Wounded by a Cannon Ball which shattered his right thigh bone at the Battle of Germantowne, Pennsylvania October 4, 1777 and taken Prisoner at Germantowne, Pennsylvania, then in November 1780 he was released by British-Prisoner Exchange he was accompanied home by Dr. Robert Wellford a British Surgeon and didn't return to the Army, and Received Pensions</note>
+            </person>
+            <person xml:id="Champes">
+               <persName>Colo. Champes</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Carter">
+               <persName>Colo. Chas Carter</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Dunbar">
+               <persName>Colo. Dunbar;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Mason">
+               <persName>Colo. Mason,</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Captain Harrison</persName>
+               <persName>Colo., L</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            <person>
-               <persName>Captain Lewis</persName>
-               <birth/>
-               <death/>
-               <note/>
+            <person xml:id="Knox">
+               <persName>Colonel Knox</persName>
+               <birth n="1750"/>
+               <death n="1806"/>
+               <note>
+                  <ptr type="picture" target="800px-Henry_Knox_by_Peale_t.jpg"/>
+                  Henry Knox (1750-1806) was born in Boston, the seventh of ten children by William Knox and Mary Campbell Knox, pioneers from North Ireland. In March 1776, Washington seized Dorchester Heights (the key to Boston) and Knox placed the cannon in position there. Knox was involved in fighting at both the battles of Brandywine and Germantown. At Valley Forge, Knox was invaluable in organizing and erecting forts to safeguard the winter encampment from British attack. 
+               </note>
             </person>
-            <person>
-               <persName>Captain McKenzie</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Captain Peachy</persName>
-               <birth>1729</birth>
-               <death>1802</death>
-               <note/>
-            </person>
-            <person>
-               <persName>Captain Smith</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Captain Spotswood</persName>
-               <birth>1748</birth>
-               <death>1800</death>
-               <note/>
-            </person>
-            <person>
-               <persName>Colonel Chas Carter</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Colonel Mason</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Colonel Nicholson</persName>
+            <person xml:id="Nicholson">
+               <persName>Colonel Nicholson,</persName>
                <birth>1737</birth>
                <death>1804</death>
-               <note/>
+               <note>James Nicholson served in the colonial Navy with the British in the assault on Havana in 1762, and was commissioned Captain in the Continental Navy 10 October 1776. He commanded Defense, Trumbull, and Virginia, and when blockaded at Baltimore, Maryland, took his men to join George Washington at the Battle of Trenton to aid in that key victory.</note>
             </person>
             <person>
-               <persName>Doctor Tappen</persName>
+               <persName>Dean</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Tappen">
+               <persName>Doctor Tappen,</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Ensign Alexandria</persName>
+               <persName>Dr. Jack</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Hubard">
+               <persName>Ensign Edward Hubard.</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Ensign Dean</persName>
+               <persName>Ensign Garter,</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            <person>
-               <persName>Ensign Edward Hubard</persName>
+            <person xml:id="Dean">
+               <persName>Ensign John Dean.</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            <person>
-               <persName>Ensign Garter</persName>
+            <person xml:id="Price">
+               <persName>Ensign Leonard Price.</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            <person>
-               <persName>Ensign John Dean</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Ensign Leonard Price</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Ensign Millner</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>Ensign Nathaniel Thompson</persName>
+            <person xml:id="Thompson">
+               <persName>Ensign Nathaniel Thompson.</persName>
                <birth>1726</birth>
                <death>1785</death>
                <note/>
-            </person> 
-            <person> 
-               <persName>Ensign Weedon</persName>
+            </person>
+            <person xml:id="Weedon">
+               <persName>Ensign Weedon;</persName>
+               <birth>1734</birth>
+               <death>1793</death>
+               <note> Weedon served as a brigadier general in the Continental Army and later in the Virginia militia. He fought in the Battles of Trenton, Brandywine, and Germantown.</note>
+            </person>
+            <person xml:id="Dangerfield">
+               <persName>Ensign William Dangerfield.</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Fleming">
+               <persName>Ensign William Fleming.</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Ensign William Dangerfield</persName>
+               <persName>Ensigns Millner,</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            <person>
-               <persName>Ensign William Fleming</persName>
-               <birth/>
-               <death/>
+            <person xml:id="Braddock">
+               <persName>G: Braddock</persName>
+               <birth>1695</birth>
+               <death>1755</death>
                <note/>
             </person>
-            <person>
-               <persName>Fœderalist</persName>
-               <birth>1789</birth>
-               <death/>
-               <note>Formed during Washington's first administration, as did their opposing party, the Democratic-Republicans.</note>
-            </person>
-            <person>
-               <persName>General Braddock</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
-            <person>
-               <persName>General Lincoln</persName>
-               <birth>1733</birth>
-               <death>1810</death>
-               <note/>
-            </person>
-            <person>
-               <persName>George Washington</persName>
+            <person xml:id="Smallwood">
+               <persName>General Smallwood</persName>
                <birth>1732</birth>
-               <death>1799</death>
-               <note>First President of the United States</note>
+               <death>February 14, 1792</death>
+               <note>Was appointed a colonel of the 1st Maryland Regiment in 1776. He led the regiment in the New York and New Jersey campaign, where the regiment served with distinction. On December 21, 1777, he commanded 1,500 Delaware and Maryland troops at the Continental Army Encampment Site to prevent occupation of Wilmington by the British and to protect the flour mills on the Brandywine.[9] For his role at the Battle of White Plains, in which he was twice wounded, Smallwood was promoted to brigadier general. He continued to serve under George Washington in the Philadelphia campaign, where his regiment again distinguished itself at Germantown. </note>
+            </person>
+            <person xml:id="Sullivan">
+               <persName>General Sullivan</persName>
+               <birth>February 17, 1740</birth>
+               <death>January 23, 1795</death>
+               <note>Served as a major general in the Continental Army and as Governor (or "President") of New Hampshire. He commanded the Sullivan Expedition in 1779, a scorched earth campaign against the Iroquois towns that had taken up arms against the American revolutionaries.</note>
+            </person>
+            <person xml:id="Armstrong">
+               <persName>Genl Armstrong</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+           
+            <person xml:id="Lincoln">
+               <persName>Genl Lincoln</persName>
+               <birth n="1733"/>
+               <death n="1810"/>
+               <note>He served as a major general in the Continental Army during the American Revolutionary War. Lincoln is notable for being involved in three major surrenders during the war: his participation in the Battles of Saratoga (sustaining a wound shortly afterward) contributed to John Burgoyne's surrender of a British army, he oversaw the largest American surrender of the war at the 1780 Siege of Charleston, and, as George Washington's second in command, he formally accepted the British surrender at Yorktown.</note>
             </person>
             <person>
-               <persName>Govenor. Shirley</persName>
+               <persName>Genl Poors Brigade</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant Brockenbrough</persName>
+               <persName>Genl Scotts</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant James Baker</persName>
+               <persName>Genl Sullivan</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant John Campbell</persName>
+               <persName>Genl Waynes</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant John. Hall</persName>
+               <persName>Genl Woodfords Brigade</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+          
+            <person xml:id="Washington">
+               <persName>George Washington</persName>
+               <birth n="1732"/>
+               <death n="1799"/>
+               <note/>
+            </person>
+           
+            <person>
+               <persName>Gov'r. Shirley</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName> Lieutenant John King</persName>
+               <persName>Governor Innes</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant John Williams</persName>
+               <persName>Governor Innis</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant Lomax </persName>
-               <birth>1745</birth>
-               <death>1813</death>
-               <note/>
-            </person>
-            <person>
-               <persName>Lieutenant Lowry</persName>
+               <persName>Howe</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>Lieutenant Peter Steenbergen</persName>
-               <birth>1723</birth>
-               <death>1779</death>
+               <persName>Jack</persName>
+               <birth/>
+               <death/>
                <note/>
             </person>
             <person>
+               <persName>Jameison</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Jno</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="KingGeorgeIII">
+               <persName>King:</persName>
+               <birth n="1738"/>
+               <death n="1820"/>
+               <note/>
+            </person>
+           
+            <person xml:id="Brockenbrough">
+               <persName>Lieutenant Brockenbrough,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant James Baker,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Campbell">
+               <persName>Lieutenant John Campbell;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant John King,</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant John Williams;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant John. Hall;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Lomax</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Lowry;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
+               <persName>Lieutenant Peter Steenbergen;</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            
+            <person xml:id="Stirling">
+               <persName>Lord Stirling</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+           
+            <person>
+               <persName>Lowry</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person xml:id="Rensselaer">
                <persName>Major Rensselaer</persName>
                <birth/>
                <death/>
                <note/>
             </person>
+            
             <person>
                <persName>Major Shaw</persName>
                <birth/>
@@ -255,22 +387,23 @@
                <note/>
             </person>
             <person>
-               <persName>Mr. James Greenleaf</persName>
-               <birth>1765</birth>
-               <death>1843</death>
+               <persName>Mr. Cox,</persName>
+               <birth/>
+               <death/>
                <note/>
+            </person>
+           
+            <person xml:id="Greenleaf">
+               <persName>Mr. James Greenleaf,</persName>
+               <birth>June 9, 1765</birth>
+               <death>September 17, 1843</death>
+               <note>Greenleaf engaged in land speculation in the District of Columbia, New York state, and other areas. He was a central figure in the early development of Washington, D.C. </note>
             </person>
             <person>
                <persName>Mr. Jones</persName>
                <birth/>
                <death/>
                <note/>
-            </person>
-            <person>
-               <persName>Patriots</persName>
-               <birth>Active befire 1775</birth>
-               <death/>
-               <note>Colonist against British rule; rebels.</note>
             </person>
             <person>
                <persName>Prince William</persName>
@@ -297,48 +430,168 @@
                <note/>
             </person>
             <person>
+               <persName>Sir Peter's</persName>
+               <birth/>
+               <death/>
+               <note/>
+            </person>
+            <person>
                <persName>St Johns</persName>
                <birth/>
                <death/>
                <note/>
             </person>
             <person>
-               <persName>St Penobscott</persName>
+               <persName>St Johns &amp; Penobscott</persName>
                <birth/>
                <death/>
                <note/>
             </person>
-            
-            <person>
-               <persName>Winchester</persName>
-               <birth/>
-               <death/>
-               <note/>
-            </person>
+           
          </listPerson>
          <listOrg>
-            <org>
-               <orgName>England</orgName>
+            <org xml:id="USArmy">
+               <orgName type="#USmilitary">Army</orgName>
+               <orgName type="#USmilitary">No. Carolina Brigades</orgName>
+               <orgName type="#USmilitary">Militia</orgName>
+               <orgName type="#USmilitary">Morgans Corp</orgName>
+               <note/>
+            </org>
+            <org xml:id="battalion">
+               <orgName type="#military">Battalion</orgName>
+               <note/>
+            </org>
+            <org xml:id="brigade">
+               <orgName type="#military">Brigade</orgName>
+               <note/>
+            </org>
+            <org xml:id="Passq">
+               <orgName type="#NativeTribe">Brothers of Passamaquodia</orgName>
+               <note/>
+            </org>
+            <org xml:id="Canada">
+               <orgName type="#nation">Canada</orgName>
+               <note/>
+            </org>
+            <org xml:id="CanMil">
+               <orgName type="#military">Canadian Force;</orgName>
+               <note/>
+            </org>
+            <org xml:id="Native">
+               <orgName type="#NativeTribe">Cherokees</orgName>
+               
+               <orgName type="#NativeTribe">Delewares</orgName>
+               <orgName type="#NativeTribe">Micmack Indians</orgName>
+               <orgName type="#NativeTribe">Shawanese</orgName>
+               <orgName type="#NativeTribe">Six Nations</orgName>
+               <orgName type="#NativeTribe">Southern Tribes</orgName>
+               <note/>
+            </org>
+            <org xml:id="Congress">
+               <orgName type="#political">Congress</orgName>
+               <note/>
+            </org>
+            
+            <org xml:id="ConstiConv">
+               <orgName type="#political">Convention</orgName>
+               <note/>
+            </org>
+           
+            <org xml:id="Eng">
+               <orgName type="#Britain">Enemy</orgName>
+               <orgName type="#nation">England</orgName>
+               <orgName type="#nation">Great Britain</orgName>
+               <note/>
+            </org>
+           
+           
+            <org type="Eur">
+               <orgName type="#nation">Europe</orgName>
                <note/>
             </org>
             <org>
-               <orgName>France</orgName>
+               <orgName type="#military">Fairfax Officers</orgName>
+               <note/>
+            </org>
+            <org xml:id="Fra">
+               <orgName type="#nation">France</orgName>
+               <orgName type="#nation">French</orgName>
+               <note/>
+            </org>
+            
+            <org xml:id="Fed">
+               <orgName type="#political">Fœderalist</orgName>
+               <note/>
+            </org>
+            
+            <org xml:id="Hol">
+               <orgName type="#nation">Holland</orgName>
+               <note/>
+            </org>
+            <org xml:id="HOB">
+               <orgName type="#political">House of Burgesses</orgName>
+               <note/>
+            </org>
+           
+          
+            <org>
+               <orgName type="#military">Lord Stirling’s division</orgName>
+               <note/>
+            </org>
+           
+           
+           
+            
+            <org xml:id="Pat">
+               <orgName type="#USmilitary">Patriots</orgName>
+               <note/>
+            </org>
+            <org xml:id="PAMil">
+               <orgName type="#USmilitary">Pensylvania Militia</orgName>
                <note/>
             </org>
             <org>
-               <orgName>Holland</orgName>
+               <orgName type="#USmilitary">Potters Militia</orgName>
                <note/>
             </org>
             <org>
-               <orgName>Massachusetts</orgName>
+               <orgName type="#political">Provincial Congress</orgName>
                <note/>
             </org>
             <org>
-               <orgName>New York</orgName>
+               <orgName type="#military">Regiment</orgName>
                <note/>
             </org>
+           
+           
+            
+            <org>
+               <orgName type="#military">Squadron</orgName>
+               <note/>
+            </org>
+            <org>
+               <orgName type="#military">Troops</orgName>
+               <note/>
+            </org>
+            <org xml:id="US">
+               <orgName type="#nation">U. S.</orgName>
+               <note/>
+            </org>
+           
          </listOrg>
          <listPlace>
+            <place>
+               <placeName>Alexandria;</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Amsterdam</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
             <place>
                <placeName>Boston</placeName>
                <location>
@@ -346,7 +599,19 @@
                </location>
             </place>
             <place>
-               <placeName>Bucks County, Pa</placeName>
+               <placeName>Boston</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Boston,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Bucks County,</placeName>
                <location>
                   <geo/>
                </location>
@@ -358,19 +623,25 @@
                </location>
             </place>
             <place>
-               <placeName>Camp Cambridge</placeName>
+               <placeName>Cambridge,</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Camp at Will's Creek</placeName>
+               <placeName>Camp Cambridge,</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Canada</placeName>
+               <placeName>Camp at Will's Creek,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Camp, at George's-Creek,</placeName>
                <location>
                   <geo/>
                </location>
@@ -388,43 +659,61 @@
                </location>
             </place>
             <place>
-               <placeName>Fairfax Officers 31st 1st.</placeName>
+               <placeName>Fairfax</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Fort Duquisne</placeName>
+               <placeName>Federal City,</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Fredericksburg</placeName>
+               <placeName>Fort Duquisne,</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Great Britain</placeName>
+               <placeName>Fort Duquisne;</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Head Quarters, New York</placeName>
+               <placeName>Fredericksburg;</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Holland</placeName>
+               <placeName>Fredericksburgh;</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>House of Burgesses</placeName>
+               <placeName>Frontier Countys</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Greys Ferry</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Head Quarters, New York,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Kensington</placeName>
                <location>
                   <geo/>
                </location>
@@ -448,13 +737,25 @@
                </location>
             </place>
             <place>
+               <placeName>Maryland</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Massachusetts</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
                <placeName>Massachusetts Bay</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Militia Prince Wm</placeName>
+               <placeName>Matsons ford</placeName>
                <location>
                   <geo/>
                </location>
@@ -466,7 +767,37 @@
                </location>
             </place>
             <place>
-               <placeName>Niagara</placeName>
+               <placeName>Mount Vernon,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Mount Vernon,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Mount Vernon.</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>New York</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>New York,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Niagara,</placeName>
                <location>
                   <geo/>
                </location>
@@ -478,13 +809,61 @@
                </location>
             </place>
             <place>
+               <placeName>Pa</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Pensa</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Phila.</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
                <placeName>Philadelphia</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
+               <placeName>Philadelphia,</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
                <placeName>Portsmouth</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Prince Win</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Prince Wm</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Provence Island</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Rhode Island,</placeName>
                <location>
                   <geo/>
                </location>
@@ -502,13 +881,25 @@
                </location>
             </place>
             <place>
+               <placeName>Schuylkill</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Sheepscott</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
                <placeName>South Carolina</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Southern Colony</placeName>
+               <placeName>Southern Colony.</placeName>
                <location>
                   <geo/>
                </location>
@@ -520,19 +911,19 @@
                </location>
             </place>
             <place>
-               <placeName>Town of Boston</placeName>
-               <location>
-                  <geo/>
-               </location>
-            </place>
-            <place>
                <placeName>Town of Falmouth</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Towns on the Coast</placeName>
+               <placeName>Valley Forge</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>Virginia</placeName>
                <location>
                   <geo/>
                </location>
@@ -544,24 +935,37 @@
                </location>
             </place>
             <place>
+               <placeName>Wills Creek</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
                <placeName>Winchester</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>[Williamsburg]</placeName>
+               <placeName>Winchester,</placeName>
                <location>
                   <geo/>
                </location>
             </place>
             <place>
-               <placeName>Federal City</placeName>
+               <placeName>Winchester;</placeName>
+               <location>
+                  <geo/>
+               </location>
+            </place>
+            <place>
+               <placeName>[Williamsburg],</placeName>
                <location>
                   <geo/>
                </location>
             </place>
          </listPlace>
+         
       </body>
    </text>
 </TEI>

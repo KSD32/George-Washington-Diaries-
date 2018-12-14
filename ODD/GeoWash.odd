@@ -47,7 +47,7 @@
                 <valItem ident="#religious"/>
                 <valItem ident="#military"/>
                 <valItem ident="#NativeTribe"/>
-                <valItem ident="IroquoisNation"/>
+                <valItem ident="#IroquoisNation"/>
               </valList>
             </attDef>
           </attList>
@@ -66,6 +66,50 @@
             </attDef>
           </attList>
         </elementSpec>
+        <elementSpec ident="name" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <datatype><rng:text/></datatype>
+              <valList type="closed">
+                <valItem ident="#AmericanRevolution"/>
+                <valItem ident="#FrenchIndian"/>
+                <valItem ident="#professor"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+       <!--  <elementSpec ident="persName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="xml:id" mode="replace" usage="req">
+              <datatype><rng:text/></datatype>
+              <valList type="closed">
+                <valItem ident="#Smith"/>
+                <valItem ident="#Bell"/>
+                <valItem ident="#Harrison"/>
+                <valItem ident="#Lewis"/>
+                <valItem ident="#McKenzie"/>
+                <valItem ident="#Peachy"/>
+                <valItem ident="#Spotswood"/>
+                <valItem ident="#Champes"/>
+                <valItem ident="#Carter"/>
+                <valItem ident="#Dunbar"/>
+                <valItem ident="#Mason"/>
+                <valItem ident="Knox"/>
+                <valItem ident="Nicholson"/>
+                <valItem ident="Tappen"/>
+                <valItem ident="Hubard"/>
+                <valItem ident="Dean"/>
+                <valItem ident="Price"/>
+                <valItem ident="Thompson"/>
+                <valItem ident="Weedon"/>
+                <valItem ident="Dangerfield"/>
+                <valItem ident="Fleming"/>
+                <valItem ident="Braddock"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+         -->
       </schemaSpec>
     </body>
   </text>

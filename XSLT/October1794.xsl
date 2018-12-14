@@ -32,6 +32,13 @@
             </span>
         </strong>
     </xsl:template>
+    <xsl:template match="date[@type='entrydate']">
+        <strong>
+            <span class="entrydate">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
     <xsl:template match="location/settlement">
         <strong><span class="city">
             <xsl:apply-templates/>
@@ -93,9 +100,51 @@
             </span>
         </strong>
     </xsl:template>
+    <xsl:template match="note[@resp='editorsWash']">
+        <strong>
+            <span class="editorsWash">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
     <xsl:template match="persName">
         <strong>
             <span class="persName">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="name[@type ='#AmericanRevolution']">
+        <strong>
+            <span class="AmericanRevolution">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="name[@type='FrenchIndian']">
+        <strong>
+            <span class="FrenchIndian">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="roleName[@type='#MilOfficer']">
+        <strong>
+            <span class="MilOfficer">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="roleName[@type='#USpolitical']">
+        <strong>
+            <span class="USpolitical">
+                <xsl:apply-templates/>
+            </span>
+        </strong>
+    </xsl:template>
+    <xsl:template match="roleName[@type='#UScourt']">
+        <strong>
+            <span class="UScourt">
                 <xsl:apply-templates/>
             </span>
         </strong>

@@ -3,16 +3,16 @@
       <meta charset="UTF-8" />
       <meta name="author" content="My Name" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" type="text/css" href="letters.css"/>
-      <link rel="stylesheet" type="text/css" href="letter_hmtl.css"/>
+      <link rel="stylesheet" type="text/css" href="letters_html.css"/>
       <script type="text/javascript" src="washington.js">/**/</script>
       
    </head>
    <!--#echo var="DATE_LOCAL" -->
    
    <body>
+      <!--#include virtual="options.html" -->
       <h1>May 1781</h1>
-      <div>
+      <div id="letterBackground">
          <fieldset>
             <legend>Click to Highlight:</legend>
             <input type="checkbox" id="Datetoggle"/>
@@ -37,17 +37,13 @@
             <span>Places</span>
             <input type="checkbox" id="Miltoggle" />
             <span>Military</span>
-            <input type="checkbox" id="Natitoggle" />
-            <span>Native Americans</span>
+           
             <input type="checkbox" id="USpolitoggle" />
             <span>US Political</span>
             
             
          </fieldset>
-      </div>
-      <!--#include virtual="options.html" -->
-      
-      <div>
+     
       
       <p><strong><span class="date"> May 1781</span></strong></p>
       
