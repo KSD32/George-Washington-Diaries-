@@ -17,7 +17,7 @@
                 <xsl:apply-templates select="//body"/>
                 
             </body>
-            
+            <!--ksd32: 09/09/2019: Want to have the notes separate from the text. Reference the drop-down option used in the Ulysseus Project.  -->
         </html>
     </xsl:template>
     <xsl:template match="p">

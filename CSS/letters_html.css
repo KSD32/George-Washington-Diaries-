@@ -17,10 +17,10 @@ span.Britain.on{color:#ff9900}
 span.NativeTribe.on{color:#333300}
 span.USpolitical.on{color:#99e699}
 span.AmericanRevolution.on{color:#ff9966}
-
+/* ksd32: 09/09/2019: Combine placeName, city and state */
 
 div#letterBackground{
-    background-color: lightblue;
+    background-image:url("parchment.jpg");
     padding-top: 50px;
     padding-right: 200px;
     padding-bottom: 50px;
@@ -92,3 +92,27 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* Drop Down Formatting =
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;*/
+
+  /* Position the tooltip 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;}*/

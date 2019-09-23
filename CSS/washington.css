@@ -1,23 +1,7 @@
-
-div.header{
-    background-image: url('american-revolution-hero.jpg'); 
-background-size: 100% 100%;
-    background-repeat:no-repeat;
-background-attachment:scroll;
-background-color:  #2C3764;
-    color: #580000;
-    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
-}
-
 body { 
-background-color: #81BEF7;
-padding-top: 50px;
-    padding-right: 200px;
-    padding-bottom: 50px;
-    padding-left: 200px;
+background-image:url("parchment.jpg");
 color: #70003D;
 font-family: arial, helvetica, sans-serif;
-
 }
 h1 {
     color: white;
@@ -28,4 +12,3 @@ h1 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
-
